@@ -1,1 +1,1 @@
-web: gunicorn isikacek:isikacek
+web: gunicorn isikacek:app
