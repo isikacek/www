@@ -1,0 +1,557 @@
+# English translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-11-06 22:38+0100\n"
+"PO-Revision-Date: 2017-11-06 22:39+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: hr\n"
+"Language-Team: hr <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: templates/base.html
+
+msgid "About"
+msgstr "About"
+
+msgid "Projects"
+msgstr "Projects"
+
+msgid "CV"
+msgstr "CV"
+
+msgid "Contact"
+msgstr "Contact"
+
+
+#: templates/_legal_lang.html
+
+msgid "images"
+msgstr "images"
+
+msgid "terms"
+msgstr "terms"
+
+msgid "privacy"
+msgstr "privacy"
+
+
+#: templates/contact.html
+
+msgid "contact_title"
+msgstr "Contact me"
+
+msgid "contact_send_message"
+msgstr "Send me a direct message!"
+
+msgid "contact_name"
+msgstr "Your name"
+
+msgid "contact_email"
+msgstr "Your email"
+
+msgid "contact_subject"
+msgstr "Title"
+
+msgid "contact_message"
+msgstr "Message..."
+
+msgid "contact_send"
+msgstr "Send"
+
+msgid "contact_sent"
+msgstr "Message sent!"
+
+msgid "contact_failed"
+msgstr "Request failed. Returned status of"
+
+
+#: templates/terms.html
+
+msgid "terms_website"
+msgstr "*WEBSITE* is a website ("Site") operated, updated and maintained by Igor Sikaček."
+
+msgid "terms_website_1"
+msgstr "By accessing this site, you are agreeing to these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using, accessing, or linking to this site."
+
+msgid "terms_website_2"
+msgstr "These terms of use may be changed at any time by modifying this page without notice."
+
+msgid "terms_site_info_1"
+msgstr "Site information, content, third party, and access disclaimer"
+
+msgid "terms_site_info_2"
+msgstr "The information or material displayed on the site is provided as-is and without any guarantees, conditions or warranties as to its accuracy. The information or material contained on this site are for informational purposes only and do not claim to constitute professional or legal advice and shall not be relied upon as such."
+
+msgid "terms_site_info_3"
+msgstr "No responsibility or liability is accepted for any direct, indirect, or consequential loss or damages which may arise from access, use, or reliance on the information or materials on this site."
+
+msgid "terms_site_info_4"
+msgstr "We reserve the right to modify or remove any content on this site at any time without notice. "
+
+msgid "terms_site_info_5"
+msgstr "We also reserve the right to remove access to this site at any time, for any period without notice."
+
+msgid "terms_site_info_6"
+msgstr "As such no responsibility or liability is accepted for any direct, indirect, or consequential loss or damages which may arise from out of date material, unavailability of the site, or indefinite closing of the site."
+
+msgid "terms_site_info_7"
+msgstr "All links to third party websites, information, and materials are for informational purposes only and can be changed, removed, or their content made unavailable at any time."
+
+msgid "terms_site_info_8"
+msgstr "As such no responsibility or liability is accepted for any direct, indirect, or consequential loss or damages which may arise from access, use, or reliance on links, out of date links, unavailability of linked content, change or removal of linked content."
+
+msgid "terms_site_info_9"
+msgstr "When accessing a third party website you are advised to check their terms of use and privacy policies."
+
+msgid "terms_rights"
+msgstr "Intellectual property rights & licences"
+
+msgid "terms_rights_1"
+msgstr "The materials contained in this website are protected by applicable copyright and trademark law. All third party content, modified or not, is protected by applicable copyright and trademark law and their respective licences."
+
+msgid "terms_rights_2"
+msgstr "Where required, third party content is accredited in the 'images' section of the site."
+
+msgid "terms_rights_3"
+msgstr "The site source code is licensed under the <a href="/mit?lang=en">MIT licence</a>."
+
+msgid "terms_user"
+msgstr "User information"
+
+msgid "terms_user_1"
+msgstr "Information about site visitors is processed in accordance with our <a href="privacy">privacy policy</a>. By using the site, you consent to terms outlined therein."
+
+msgid "terms_misuse"
+msgstr "Site misuse"
+
+msgid "terms_misuse_1"
+msgstr "You must not introduce any malicious or harmful content to this site or any part of the technological platform on which it resides, or use this site or any part of the technological platform on which it resides to introduce any malicious or harmful content to any third party website or computer system."
+
+msgid "terms_misuse_2"
+msgstr "You must not not attempt to gain unauthorised access to this site or any part of the technological platform on which it resides, or use this site or any part of the technological platform on which it resides to attempt to gain unauthorised access to any third party website or computer system."
+
+msgid "terms_contact"
+msgstr "Contacting us"
+
+msgid "terms_contact_1"
+msgstr "If you have any questions about terms of service, the practices of this site, or your dealings with this site, please contact us."
+
+msgid "terms_timestamp"
+msgstr "This document was last updated on February 19, 2018"
+
+
+#: templates/privacy.html
+
+msgid "privacy_policy"
+msgstr "This Privacy Policy governs the manner in which Igor Sikaček collects, uses, maintains and discloses information collected from users (each, a "User") of the *WEBSITE* website ("Site")."
+
+msgid "privacy_personal"
+msgstr "Personal identification information"
+
+msgid "privacy_personal_1"
+msgstr "We may collect personal identification information from Users in a variety of ways, including, but not limited to, when Users visit our site, fill out a form, and in connection with other activities, services, features or resources we make available on our Site. Users may be asked for, as appropriate, name, email address. Users may, however, visit our Site anonymously. We will collect personal identification information from Users only if they voluntarily submit such information to us. Users can always refuse to supply personally identification information, except that it may prevent them from engaging in certain Site related activities."
+
+msgid "privacy_non_personal"
+msgstr "Non-personal identification information"
+
+msgid "privacy_non_personal_1"
+msgstr "We may collect non-personal identification information about Users whenever they interact with our Site. Non-personal identification information may include the browser name, the type of computer and technical information about Users means of connection to our Site, such as the operating system and the Internet service providers utilized and other similar information."
+
+msgid "privacy_cookies"
+msgstr "Web browser cookies"
+
+msgid "privacy_cookies_1"
+msgstr "Our Site may use "cookies" to enhance User experience. User's web browser places cookies on their hard drive for record-keeping purposes and sometimes to track information about them. User may choose to set their web browser to refuse cookies, or to alert you when cookies are being sent. If they do so, note that some parts of the Site may not function properly."
+
+msgid "privacy_use"
+msgstr "How we use collected information"
+
+msgid "privacy_use_1"
+msgstr "Igor Sikaček may collect and use Users personal information for the following purposes:"
+
+msgid "privacy_use_2"
+msgstr " - To run and operate our Site"
+
+msgid "privacy_use_3"
+msgstr "We may need your information display content on the Site correctly."
+
+msgid "privacy_use_4"
+msgstr "We may use the email address to respond to their inquiries, questions, and/or other requests. "
+
+msgid "privacy_protect"
+msgstr "How we protect your information"
+
+msgid "privacy_protect_1"
+msgstr "We adopt appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of your personal information, username, password, transaction information and data stored on our Site."
+
+msgid "privacy_share"
+msgstr "Sharing your personal information"
+
+msgid "privacy_share_1"
+msgstr "We do not sell, trade, or rent Users personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates and advertisers for the purposes outlined above. "
+
+msgid "privacy_share_2"
+msgstr "We may share or sell information with third parties for marketing or other purposes."
+
+msgid "privacy_third"
+msgstr "Third party websites"
+
+msgid "privacy_third_1"
+msgstr "Users may find advertising or other content on our Site that link to the sites and services of our partners, suppliers, advertisers, sponsors, licensors and other third parties. We do not control the content or links that appear on these sites and are not responsible for the practices employed by websites linked to or from our Site. In addition, these sites or services, including their content and links, may be constantly changing. These sites and services may have their own privacy policies and customer service policies. Browsing and interaction on any other website, including websites which have a link to our Site, is subject to that website's own <a href="terms">terms and policies</a>."
+
+msgid "privacy_changes"
+msgstr "Changes to this privacy policy"
+
+msgid "privacy_changes_1"
+msgstr "Igor Sikaček has the discretion to update this privacy policy at any time. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications."
+
+msgid "privacy_accept"
+msgstr "Your acceptance of these terms"
+
+msgid "privacy_accept_1"
+msgstr "By using this Site, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our Site. Your continued use of the Site following the posting of changes to this policy will be deemed your acceptance of those changes. This privacy policy was built with a free policy generator."
+
+msgid "privacy_contact"
+msgstr "Contacting us"
+
+msgid "privacy_contact_1"
+msgstr "If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us."
+
+msgid "privacy_timestamp"
+msgstr "This document was last updated on February 19, 2018"
+
+
+#: templates/attributions.html
+
+msgid "attributions_title"
+msgid "Asset attributions"
+
+msgid "attributions_about"
+msgstr "About page: "
+
+msgid "attributions_404"
+msgstr "404 page: "
+
+msgid "attributions_500"
+msgstr "500 page: "
+
+msgid "attributions_1"
+msgstr "Designed by"
+
+msgid "attributions_2"
+msgstr "Vector Art by"
+
+msgid "attributions_3"
+msgstr "Design Credits"
+
+msgid "attributions_4"
+msgstr "Vector Graphics by"
+
+
+#: templates/mit.html
+
+msgid "mit-nonenglish"
+msgstr "<span></span>"
+
+
+#: templates/about.html
+
+msgid "about_hi"
+msgstr "Hi there!"
+msgid "about_me"
+msgstr "I'm Igor, Zagreb based developer with over 10 years of professional experience in the trenches, and a continuing excitement for new challenges in the field."
+msgid "about_products"
+msgstr "I've worked on products that serve hundreds of end-users in critical business stages such as: solvency reporting, interbanking account reporting, POS e-signature capture, telephone call routing with CRM, etc.."
+msgid "about_project_needs"
+msgstr "To manage the technical needs of (sometimes) multiple ongoing projects, I've leveraged quick technology adoption, organization and writing skills, and prompt and frequent communication with customers."
+msgid "about_users"
+msgstr "Usually this included communicating with users the needed request clarifications, changes in specifications, bug analysis, and new feature recommendations. On bigger projects this also included iterative development, DTAP workflow, bugfix/feature time estimation, demo examples and presentation material preparation."
+msgid "about_team"
+msgstr "Of course everything mentioned is within the context of a team, and for me one of the greatest pleasures of development is working with trusted and competent group with a common product goal in mind. Because of various projects I've worked with different teams, I feel equally comfortable doing standalone work, being part of peer review, or pair programming."
+msgid "about_programming"
+msgstr "From programming perspective, I've worked with frontend, backend, and database parts of products, either on single or across all segments, depending on a project. This allowed me to gain experience with multiple commonly used languages, frameworks, platforms etc. across all of the mentioned development segments."
+msgid "about_tools"
+msgstr "I’ve also developed standalone Windows and command line applications, had experience with many GUI and command line tools (also written my own), and even made a mobile app that is used in 25+ stores with total of 100+ users. "
+msgid "about_technical"
+msgstr "Along the way I also did code/query optimization, db schema design, system integration, data migration and cleaning, working with legacy systems, and a bit of reverse engineering and network traffic analysis."
+msgid "about_design"
+msgstr "My main goal has always been to be a generally better developer and problem solver and my focus has always been on learning and applying best practices, and honing my code & architecture design skills. Because of that I’ve been developing and successfully applied tools like design patterns, SOLID, testing, TDD, and aforementioned skills."
+msgid "about_personal"
+msgstr "When I’m not grinding, learning, or thinking about development i enjoy board games, cooking, reading, movies, hockey, and generally being sociable."
+
+
+#: templates/_404.html
+
+msgid "404_title"
+msgstr "404 - page not found"
+
+msgid "404_description"
+msgstr "This is not where you were going, why don't you go somewhere else..."
+
+
+#: templates/_500.html
+
+msgid "500_title"
+msgstr "500 - Internal server error!"
+
+msgid "500_description"
+msgstr "... I'll fix it!"
+
+
+#: templates/_cv_head.html
+
+msgid "cv_head_download"
+msgstr "Download CV in different format:"
+
+msgid "cv_head_standard"
+msgstr "Standard:"
+
+msgid "cv_head_europass"
+msgstr "Europass:"
+
+
+#: templates/projects.html
+
+msgid "projects_awk-it_desc"
+msgstr "Emacs package that allows interactive AWK completion on selected text."
+
+msgid "projects_oms_desc"
+msgstr "Outlook plug in for quick copy/export of custom mail item summaries."
+
+msgid "projects_envar_desc"
+msgstr "Windows local & remote environment variable manager."
+
+
+#: templates/projects/awk-it.html
+
+msgid "awk-it-title"
+msgstr "AWK It!"
+
+msgid "awk-it-intro"
+msgstr "AWK it! is an <a href=""https://www.gnu.org/software/emacs/">Emacs</a> package that allows you to see AWK output as you are typing the script; it sends selected region to awk and uses yasnippet as interactive UI. You can get the leatest version <a href="https://github.com/isikacek/awk-it">here</a>, or visit the <a href="https://www.emacswiki.org/emacs/AWK_It">wiki</a>."
+
+msgid "awk-it-show-demo"
+msgstr "Show demo"
+
+msgid "awk-it-hide-demo"
+msgstr "Hide demo"
+
+msgid "awk-it-no-video"
+msgstr "Your browser does not support HTML5 video."
+
+msgid "awk-it-details-1"
+msgstr "There are 3 modes of AWK code: simplified syntax (default, see below), single line AWK syntax (regular AWK syntax but only inside the default match) and raw   AWK syntax (full AWK code). AWK it! can transfrom code from one mode to another (not perfect, but it will make an effort) and there is also support for multiple lines. Data is expanded with selected yasnippet expand keybinding."
+
+msgid "awk-it-details-2"
+msgstr "Simplest usage is selecting region and running M-x awk-it. Default field separator is space. AWK it! matches every non empty row in region ($0 !~ /^$/)."
+
+msgid "awk-it-details-3"
+msgstr "After invoking command buffer will change to show the following interface:"
+
+msgid "awk-it-code-1"
+msgstr ""
+"    Data: &lt;First line with most fields&gt;\n"
+"    AWK pattern: &lt;AWK code; may be multiple lines without extra formatting&gt;\n"
+"    &lt;AWK output&gt;\n"
+
+msgid "awk-it-example-1"
+msgstr "Example of text to HTML transformation:"
+
+msgid "awk-it-example-2"
+msgstr "From:"
+
+msgid "awk-it-code-2"
+msgstr ""
+"    John 26 London\n"
+"    Mark 27 Seattle 50\n"
+"    Scott 26 Sydney\n"
+
+msgid "awk-it-example-3"
+msgstr "to (ignoring the extra field in example pattern):"
+
+msgid "awk-it-code-3"
+msgstr ""
+"    Data: Marko 27 Split 50\n"
+"    AWK pattern: &lt;person name=\"$1\" age=\"$2\"&gt;\n"
+"    &lt;location&gt;$3&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"John\" age=\"26\"&gt;\n"
+"    &lt;location&gt;London&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"Mark\" age=\"27\"&gt;\n"
+"    &lt;location&gt;Seattle&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"Scott\" age=\"26\"&gt;\n"
+"    &lt;location&gt;Sydney&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+
+msgid "awk-it-example-4"
+msgstr "and after expansion:"
+
+msgid "awk-it-code-4"
+msgstr ""
+"    &lt;person name=\"John\" age=\"26\"&gt;\n"
+"        &lt;location&gt;London&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"Mark\" age=\"27\"&gt;\n"
+"        &lt;location&gt;Seattle&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"Scott\" age=\"26\"&gt;\n"
+"        &lt;location&gt;Sydney&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+
+msgid "awk-it-example-5"
+msgstr "The expanded lines are automaticaly indented. Buffer undo goes back to before awk-it invocation (both options can be changed)."
+
+msgid "awk-it-options-1"
+msgstr "During completion the folowing options are available: "
+
+msgid "awk-it-options-2"
+msgstr "C-c s - change field separator"
+
+msgid "awk-it-options-3"
+msgstr "C-c t - toggle space and tab trimming around custom field separator"
+
+msgid "awk-it-options-4"
+msgstr "C-c &lt;up&gt; - next AWK it! mode (simple →&nbsp;single →&nbsp;raw →&nbsp;simple →&nbsp;…)"
+
+msgid "awk-it-options-5"
+msgstr "C-c &lt;down&gt; - previous AWK it! mode (raw →&nbsp;single →&nbsp;simple →&nbsp;raw …)"
+
+msgid "awk-it-options-6"
+msgstr "After completion you can run: "
+
+msgid "awk-it-options-7"
+msgstr "M-x awk-it-to-kill-ring - copies last AWK code to kill ring"
+
+msgid "awk-it-options-8"
+msgstr "M-x awk-it-to-file - copies last AWK code (raw or converted to raw) to file"
+
+msgid "awk-it-simplified-1"
+msgstr "Simplified AWK code differs from regular in that it: "
+
+msgid "awk-it-simplified-2"
+msgstr "prints code (print \"&lt;code&gt;\")"
+
+msgid "awk-it-simplified-3"
+msgstr "escapes double and single quotes (latter for shell interaction)"
+
+msgid "awk-it-simplified-4"
+msgstr "escapes newline"
+
+msgid "awk-it-simplified-5"
+msgstr "concatenates fields with rest of the text"
+
+msgid "awk-it-single"
+msgstr "The single mode is regular AWK code run for each default match. The previous example written in single AWK code would be:"
+
+msgid "awk-it-code-5"
+msgstr ""
+"    print \"&lt;person name=\\"\" $1 \"\\" age=\\"\" $2 \"\\"&gt;\"
+"n\\n"
+"    &lt;location&gt;\" $3 \"&lt;/location&gt;\"
+"n\\n"
+"    &lt;/person&gt;\"\n"
+
+msgid "awk-it-raw"
+msgstr "The raw mode is raw, or full, AWK code needed for data processing. The previous example would be:"
+
+msgid "awk-it-code-6"
+msgstr ""
+"    $0 !~ /^$/ {\n"
+"        print \"&lt;person name=\\"\" $1 \"\\" age=\\"\" $2 \"\\"&gt;\"
+"n\\n"
+"        &lt;location&gt;\" $3 \"&lt;/location&gt;\"
+"n\\n"
+"        &lt;/person&gt;\";\n"
+"    }\n"
+"    \n"
+"    /^$/ { print }\n"
+
+msgid "awk-it-modes"
+msgstr "AWK it! can also be invoked with every mode as starting mode, with custom separator, with contents of file inserted in interactive UI code field (in raw mode), or automatically process region with contents of file (as raw AWK)."
+
+msgid "awk-it-function-1"
+msgstr "Combining everything the following functions are available: "
+
+msgid "awk-it-function-2"
+msgstr "awk-it                             - basic AWK it! - starts in simple mode"
+
+msgid "awk-it-function-3"
+msgstr "awk-it-with-separator              - simple mode with custom field separator"
+
+msgid "awk-it-function-4"
+msgstr "awk-it-single                      - single mode AWK it!"
+
+msgid "awk-it-function-5"
+msgstr "awk-it-single-with-separator       - single mode with custom field separator"
+
+msgid "awk-it-function-6"
+msgstr "awk-it-raw                         - AWK it! using raw (full) AWK syntax"
+
+msgid "awk-it-function-7"
+msgstr "awk-it-file                        - automatically transform with AWK file"
+
+msgid "awk-it-function-8"
+msgstr "awk-it-with-file                   - raw mode with code from AWK file"
+
+msgid "awk-it-function-9"
+msgstr "awk-it-to-kill-ring                - place last AWK code in kill ring"
+
+msgid "awk-it-function-10"
+msgstr "awk-it-to-file                     - output last raw AWK code to file"
+
+msgid "awk-it-custom-1"
+msgstr "Also AWK it! can be customized in External →&nbsp;Awk it: "
+
+msgid "awk-it-custom-2"
+msgstr "awk-it-load-hook; Hook that gets run after the AWK it! has been loaded"
+
+msgid "awk-it-custom-3"
+msgstr "awk-it-default-separator           - default AWK field separator - ‘ ‘"
+
+msgid "awk-it-custom-4"
+msgstr "awk-it-default-row-filter          - default AWK row filter - ‘$0 !~ /^$/’"
+
+msgid "awk-it-custom-5"
+msgstr "awk-it-file-first-line             - first line inserted in AWK file"
+
+msgid "awk-it-custom-6"
+msgstr "awk-it-default-mode                - default starting mode for awk-it"
+
+msgid "awk-it-custom-7"
+msgstr "awk-it-undo                        - toggles if undo ignores AWK it! edits"
+
+msgid "awk-it-custom-8"
+msgstr "awk-it-indent                      - toggles is expanded text will be indented"
+
+msgid "awk-it-custom-9"
+msgstr "awk-it-extra-awk-code              - extra AWK code that is inserted in raw AWK"
+
+msgid "awk-it-custom-10"
+msgstr "awk-it-toggle-trim-keybinding      - keybinding for toggling trimming"
+
+msgid "awk-it-custom-11"
+msgstr "awk-it-field-separator-keybinding  - keybinding for change field separator"
+
+msgid "awk-it-custom-12"
+msgstr "awk-it-next-mode-keybinding        - keybinding for next mode"
+
+msgid "awk-it-custom-13"
+msgstr "awk-it-previous-mode-keybinding    - keybinding for previous mode"
+
+
+
+
+

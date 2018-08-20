@@ -1,0 +1,332 @@
+# Translations template for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-11-07 10:03+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+
+#: templates/base.html
+
+msgid "About"
+msgstr ""
+
+msgid "Projects"
+msgstr ""
+
+msgid "CV"
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+
+#: templates/_legal_lang.html
+
+msgid "images"
+msgstr ""
+
+msgid "terms"
+msgstr ""
+
+msgid "privacy"
+msgstr ""
+
+
+#: templates/contact.html
+
+msgid "contact_title"
+msgstr ""
+
+msgid "contact_send_message"
+msgstr ""
+
+msgid "contact_name"
+msgstr ""
+
+msgid "contact_email"
+msgstr ""
+
+msgid "contact_subject"
+msgstr ""
+
+msgid "contact_message"
+msgstr ""
+
+msgid "contact_send"
+msgstr ""
+
+msgid "contact_sent"
+msgstr ""
+
+msgid "contact_failed"
+msgstr ""
+
+
+#: templates/terms.html
+
+msgid "terms_website"
+msgstr ""
+
+msgid "terms_website_1"
+msgstr ""
+
+msgid "terms_website_2"
+msgstr ""
+
+msgid "terms_site_info_1"
+msgstr ""
+
+msgid "terms_site_info_2"
+msgstr ""
+
+msgid "terms_site_info_3"
+msgstr ""
+
+msgid "terms_site_info_4"
+msgstr ""
+
+msgid "terms_site_info_5"
+msgstr ""
+
+msgid "terms_site_info_6"
+msgstr ""
+
+msgid "terms_site_info_7"
+msgstr ""
+
+msgid "terms_site_info_8"
+msgstr ""
+
+msgid "terms_site_info_9"
+msgstr ""
+
+msgid "terms_rights"
+msgstr ""
+
+msgid "terms_rights_1"
+msgstr ""
+
+msgid "terms_rights_2"
+msgstr ""
+
+msgid "terms_rights_3"
+msgstr ""
+
+msgid "terms_user"
+msgstr ""
+
+msgid "terms_user_1"
+msgstr ""
+
+msgid "terms_misuse"
+msgstr ""
+
+msgid "terms_misuse_1"
+msgstr ""
+
+msgid "terms_misuse_2"
+msgstr ""
+
+msgid "terms_contact"
+msgstr ""
+
+msgid "terms_contact_1"
+msgstr ""
+
+msgid "terms_timestamp"
+msgstr ""
+
+
+#: templates/privacy.html
+
+msgid "privacy_policy"
+msgstr ""
+
+msgid "privacy_personal"
+msgstr ""
+
+msgid "privacy_personal_1"
+msgstr ""
+
+msgid "privacy_non_personal"
+msgstr ""
+
+msgid "privacy_non_personal_1"
+msgstr ""
+
+msgid "privacy_cookies"
+msgstr ""
+
+msgid "privacy_cookies_1"
+msgstr ""
+
+msgid "privacy_use"
+msgstr ""
+
+msgid "privacy_use_1"
+msgstr ""
+
+msgid "privacy_use_2"
+msgstr ""
+
+msgid "privacy_use_3"
+msgstr ""
+
+msgid "privacy_use_4"
+msgstr ""
+
+msgid "privacy_protect"
+msgstr ""
+
+msgid "privacy_protect_1"
+msgstr ""
+
+msgid "privacy_share"
+msgstr ""
+
+msgid "privacy_share_1"
+msgstr ""
+
+msgid "privacy_share_2"
+msgstr ""
+
+msgid "privacy_third"
+msgstr ""
+
+msgid "privacy_third_1"
+msgstr ""
+
+msgid "privacy_changes"
+msgstr ""
+
+msgid "privacy_changes_1"
+msgstr ""
+
+msgid "privacy_accept"
+msgstr ""
+
+msgid "privacy_accept_1"
+msgstr ""
+
+msgid "privacy_contact"
+msgstr ""
+
+msgid "privacy_contact_1"
+msgstr ""
+
+msgid "privacy_timestamp"
+msgstr ""
+
+
+#: templates/attributions.html
+
+msgid "attributions_title"
+msgid "Akreditacija sadržaja"
+
+msgid "attributions_about"
+msgstr "O stranica: "
+
+msgid "attributions_404"
+msgstr "404 stranica: "
+
+msgid "attributions_500"
+msgstr "500 stranica: "
+
+msgid "attributions_1"
+msgstr "Dizajn: "
+
+msgid "attributions_2"
+msgstr "Vektorska grafika: "
+
+msgid "attributions_3"
+msgstr "Dizajn"
+
+msgid "attributions_4"
+msgstr "Vektorska grafika: "
+
+
+#: templates/mit.html
+
+msgid "mit-nonenglish"
+msgstr ""
+
+
+#: templates/about.html
+
+msgid "about_hi"
+msgstr ""
+msgid "about_me"
+msgstr ""
+msgid "about_products"
+msgstr ""
+msgid "about_project_needs"
+msgstr ""
+msgid "about_users"
+msgstr ""
+msgid "about_team"
+msgstr ""
+msgid "about_programming"
+msgstr ""
+msgid "about_tools"
+msgstr ""
+msgid "about_technical"
+msgstr ""
+msgid "about_design"
+msgstr ""
+msgid "about_personal"
+msgstr ""
+
+
+#: templates/_404.html
+
+msgid "404_title"
+msgstr ""
+
+msgid "404_description"
+msgstr ""
+
+
+#: templates/_500.html
+
+msgid "500_title"
+msgstr ""
+
+msgid "500_description"
+msgstr ""
+
+
+#: templates/_cv_head.html
+
+msgid "cv_head_download"
+msgstr ""
+
+msgid "cv_head_standard"
+msgstr ""
+
+msgid "cv_head_europass"
+msgstr ""
+
+
+#: templates/projects.html
+
+msgid "projects_awk-it_desc"
+msgstr ""
+
+msgid "projects_oms_desc"
+msgstr ""
+
+msgid "projects_envar_desc"
+msgstr ""

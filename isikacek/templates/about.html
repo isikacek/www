@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block head %}
+    <style>
+        #about {
+            max-width: 66rem;
+            text-align: justify;
+            margin: auto;
+        }
+        @media (max-width: 900px) {
+            #analysis_pic, #back_pic,
+            #front_pic, #db_pic {
+                width: 100%;
+            }
+        }
+        @media (min-width: 900px) {
+            #analysis_pic, #back_pic {
+                float: right;
+            }
+
+            #front_pic, #db_pic {
+                float: left;
+            }
+        }
+        @media (min-width: 1430px) {
+            #analysis_pic, #back_pic {
+                margin-left: 4rem;
+            }
+
+            #front_pic, #db_pic {
+                margin-right: 4rem;
+            }
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <div id="about">
+        <p>{{ _('about_hi') }}</p>
+        <p>{{ _('about_me') }}</p>
+        <img id="analysis_pic" src="/static/home_analysis.png" alt="" />
+        <p>{{ _('about_products') }}</p>
+        <p>{{ _('about_project_needs') }}</p>
+        <img id="front_pic" src="/static/home_front.png" alt="" />
+        <p>{{ _('about_users') }}</p>
+        <p>{{ _('about_team') }}</p>
+        <img id="back_pic" src="/static/home_back.png" alt="" />
+        <p>{{ _('about_programming') }}</p>
+        <img id="db_pic" src="/static/home_db.png" alt="" />
+        <p>{{ _('about_tools') }}</p>
+        <p>{{ _('about_technical') }}</p>
+        <p>{{ _('about_design') }}</p>
+        <p>{{ _('about_personal') }}</p>
+    </div>
+{% endblock %}

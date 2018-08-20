@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Palanquin-Thin';
+    src: local('Palanquin-Thin'), url('/static/Palanquin-Thin.ttf') format('truetype');
+}
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: Palanquin-Thin, sans-serif;
+    color: #5B6475;
+}
+
+#top-bar {
+    font-size: 1.75rem;
+    color: white;
+    background: #5B6475;
+    line-height: 3.125rem;
+    padding: 0rem 1.875rem 0rem 1.875rem;
+    position: fixed;
+    top: 0rem;
+    width: 100%;
+}
+
+#touch-area {
+    height: 3.125rem;
+    width: 5rem;
+}
+
+#legal-lang-bottom {
+    display: none;
+}
+
+#m-options {
+    display: none;
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0.5rem 0px white, 0px 1rem 0px white;
+    margin: 0.75rem 0 0 1.25rem;
+}
+
+#top-links {
+    background-color: #5B6475;
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 1.5),
+(   min--moz-device-pixel-ratio: 1.5),
+(     -o-min-device-pixel-ratio: 1.5),
+(        min-device-pixel-ratio: 1.5) {
+    body {
+        font-size: 1.875;
+    }
+}
+
+@media
+(-webkit-max-device-pixel-ratio: 1),
+(   max--moz-device-pixel-ratio: 1),
+(     -o-max-device-pixel-ratio: 1),
+(        max-device-pixel-ratio: 1) {
+    body {
+        font-size: 1.25rem;
+    }
+}
+
+
+@media (max-width: 450px), (max-height: 460px) {
+    #top-bar {
+        padding: 0;
+    }
+    #touch-area {
+        display: block;
+    }
+    #home {
+        float: right;
+        margin-right: 3rem;
+    }
+    #m-options {
+        display: block;
+    }
+    #top-links {
+        display: none;
+        margin: 3rem 0 0 0;
+    }
+
+
+    #touch-area:hover > #top-links,
+    #touch-area:hover > #top-links a,
+    #legal-lang-bottom {
+        display: block;
+    }
+    #touch-area:hover > #top-links {
+        position: absolute;
+    }
+
+    #legal-lang-top {
+        display: none;
+    }
+}
+
+
+@media (min-width: 451px) and (max-width: 880px) and (min-height: 460px) {
+    #top-bar {
+        min-height: 6.25rem;
+        max-height: 6.25rem;
+    }
+    #top-links {
+        position: fixed;
+        top: 3.125rem;
+        left: 0rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (min-width: 880px) {
+    #top-bar {
+        min-height: 3.125rem;
+        max-height: 3.125rem;
+    }
+    #top-links {
+        margin-left: 3.125rem;
+    }
+}
+
+a {
+    text-decoration: none!important;
+}
+
+#top-links a:hover {
+    background: #6B7485;
+    transition: background-color 0.5s;
+}
+
+#top-links a, #home {
+    color: white;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#content {
+    margin: 6.25rem 16% 11% 16%;
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    text-align: justify;
+}
+
+.legal-lang {
+    float: right;
+    margin-right: 3.125rem;
+    background: #5B6475;
+}
+
+.lang-ui > a {
+    margin-left: 1.25rem;
+}
+
+.lang-ui img {
+    border-radius: 3px;
+}
+
+.legal {
+    font-size: 0.7rem;
+    display: inline-block;
+    line-height: 0.7rem;
+}
+
+.legal > span {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.legal a {
+    color: white;
+}
+
+#legal-lang-bottom {
+    clear: both;
+    color: white;
+}
+
+#legal-lang-bottom > .legal-lang {
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem 0rem 0.5rem 2rem;
+    float: none;
+    display: block;
+}
+
+#github {
+    position: fixed;
+    top: 3.1rem;
+    right: 0;
+    border: 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 6rem;
+    vertical-align: top;
+    margin-left: 3rem;
+}
+
+.project-logo {
+    width: 6rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: unset;
+    display: inline-block;
+}
+
+.base-align {
+    max-width: 66rem;
+    margin: auto;
+}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block head %}
+    <style>
+        #not-found {
+            text-align: center;
+        }
+        #not-found>img {
+          display: block;
+          margin: 0 auto;
+        }
+        #not-found>span {
+          font-size: 2.5rem;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <div id="not-found">
+        <span>{{ _('500_title') }}</span>
+        <img src="/static/500.png" alt="" />
+        <span>{{ _('500_description') }}</span>
+    </div>
+{% endblock %}

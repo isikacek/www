@@ -1,0 +1,562 @@
+# Croatian translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-11-06 22:38+0100\n"
+"PO-Revision-Date: 2017-11-06 22:39+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: hr\n"
+"Language-Team: hr <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: templates/base.html
+
+msgid "About"
+msgstr "O meni"
+
+msgid "Projects"
+msgstr "Projekti"
+
+msgid "CV"
+msgstr ""
+
+msgid "Contact"
+msgstr "Kontakt"
+
+
+#: templates/_legal_lang.html
+
+msgid "images"
+msgstr "slike"
+
+msgid "terms"
+msgstr "uvjeti"
+
+msgid "privacy"
+msgstr "privatnost"
+
+
+#: templates/contact.html
+
+msgid "contact_title"
+msgstr "Kontakt"
+
+msgid "contact_send_message"
+msgstr "Pošaljite mi dirketnu poruku!"
+
+msgid "contact_name"
+msgstr "Vaše ime"
+
+msgid "contact_email"
+msgstr "Vaš email"
+
+msgid "contact_subject"
+msgstr "Naslov"
+
+msgid "contact_message"
+msgstr "Poruka..."
+
+msgid "contact_send"
+msgstr "Pošalji"
+
+msgid "contact_sent"
+msgstr "Poruka poslana!"
+
+msgid "contact_failed"
+msgstr "Zathijev nije prošao. vračen status"
+
+
+#: templates/terms.html
+
+msgid "terms_website"
+msgstr "*WEBSITE* je internet stranica ("stranica") koju održava Igor Sikaček. "
+
+msgid "terms_website_1"
+msgstr "Pristupanjem ovoj stranici slažete se s navedenim uvjetima korištenja, svim primjenjivim zakonima i regulativom, te slažete se da se odgovorni pridržavati se svih primjenjivih lokalnih zakona. Ako se ne slažete s navedenim uvjetima zabranjeno vam je korištenje, pristup, ili vezivanje na stranicu."
+
+msgid "terms_website_2"
+msgstr "Ovi uvjeti se mogu promijeniti bilo kad, s izmjenama ove pod-stranice, bez prethodne obavijesti."
+
+msgid "terms_site_info_1"
+msgstr "Informacije o stranici, sadržaju, druge stranice, i odricanje od odgovornosti"
+
+msgid "terms_site_info_2"
+msgstr "Informacije ili materijal prikazan na ovoj stranici ne sadrži nikakvo jamstvo ili garanciju o njegovoj točnosti. Informacije ili materijal prikazan na ovoj stranici je samo za informativne svrhe, te se ne smije uzeti kao profesionalni ili legalni savjet."
+
+msgid "terms_site_info_3"
+msgstr "Ne prihvaća se nikakva odgovornost za direktan, indirektan, ili posljedični gubitak ili štetu bilo koje vrste nastalu pristupanjem, korištenjem, ili pouzdavanjem na informacije ili sadržaj na ovoj stranici."
+
+msgid "terms_site_info_4"
+msgstr "Zadržavamo pravo izmjene ili uklanjanja bilo kojeg sadržaja na ovoj stranici bilo kad, bez prethodne obavijesti."
+
+msgid "terms_site_info_5"
+msgstr "Također zadržavamo pravo ukidanje pristupa ovoj stranici bilo kad i na bilo koji period bez prethodne obavijesti."
+
+msgid "terms_site_info_6"
+msgstr "Zbog toga ne prihvaća se nikakva odgovornost za direktan, indirektan, ili posljedični gubitak ili štetu bilo koje vrste nastalu zbog zastarjelog sadržaja, nemogućnosti pristupa stranici ili prestanak pružanja usluge prikaza stranice."
+
+msgid "terms_site_info_7"
+msgstr "Sve veze na druge stranice, informaciju, i materijale su samo za informativne svrhe i mogu biti izmijenjene, uklonjene ili njihov sadržaj može postati nedostupan bilo kad."
+
+msgid "terms_site_info_8"
+msgstr "Zbog toga ne prihvaća se nikakva odgovornost za direktan, indirektan, ili posljedični gubitak ili štetu bilo koje vrste nastalu zbog pristupa, korištenja, ili pouzdavanja na vanjske veze, zastarjele veze, nedostupnosti vezanog sadržaja, te izmjenu ili uklanjanje vezanog sadržaja."
+
+msgid "terms_site_info_9"
+msgstr "Prilikom pristupa drugim stranicama savjetujemo da proučite njihove uvjete korištenja i pravila privatnosti."
+
+msgid "terms_rights"
+msgstr "Intelektualna prava i licence"
+
+msgid "terms_rights_1"
+msgstr "Svi sadržaji na ovoj stranici su zaštićeni primjenjivim zakonima o autorskim pravima i zaštitnom znaku. Sav tuđi sadržaj, izmijenjen ili ne, je zaštićen primjenjivim zakonima o autorskim pravima i zaštitnom znaku, te odgovarajućim licencama."
+
+msgid "terms_rights_2"
+msgstr "Gdje je potrebno, tuđi sadržaj je akreditiran u slike pod-stranici."
+
+msgid "terms_rights_3"
+msgstr "Programski kod stranice je licenciran pod <a href="/mit?lang=hr">MIT licencom</a>."
+
+msgid "terms_user"
+msgstr "Informacije o korisniku"
+
+msgid "terms_user_1"
+msgstr "Informacije o posjetiteljima stranice se obrađuju u skladu s navedenim pravilima privatnosti, te korištenjem stranice prihvaćate iste."
+
+msgid "terms_misuse"
+msgstr "Zloupotreba stranice"
+
+msgid "terms_misuse_1"
+msgstr "Ne smije se uvesti bilo koji zlonamjeran ili štetan sadržaj ovoj stranici ili bilo kojem dijelu tehnološke platforme koju stranica koristi, niti koristiti stranicu ili bilo koji dio tehnološke platforme koju stranica koristi da bi se uveo bilo koji zlonamjeran ili štetan sadržaj vanjskim stranicama ili računalnom sustavu."
+
+msgid "terms_misuse_2"
+msgstr "Ne smije se pristupati bilo kojem dijelu ove stranice za koje korisnik nema odobrenje, ili bilo kojem dijelu tehnološke platforme koju stranica koristi za koji korisnik nema odobrenje. Također ne smije se koristiti stranica ili bilo koji dio tehnološke platforme koju stranica koristi da bi se pristupalo vanjskim stranicama za koji korisnik nema odobrenje ili računalnom sustavu za koji korisnik nema odobrenje."
+
+msgid "terms_contact"
+msgstr "Kontakt"
+
+msgid "terms_contact_1"
+msgstr "Ako imate bilo kakva pitanja o uvjetima korištenja slobodno nam javite. "
+
+msgid "terms_timestamp"
+msgstr "Zadnja izmjena ove stranice je bila *date*."
+
+
+#: templates/privacy.html
+
+msgid "privacy_policy"
+msgstr "Ova pravila privatnosti određuju način na koji Igor Sikaček sakuplja, koristi, održava, i prosljeđuje informacije sakupljene od posjetitelja(“Korisnik”) internet stanice *WEBSITE* (“Stranica”)."
+
+msgid "privacy_personal"
+msgstr "Informacije o osobnim podatcima korisnika"
+
+msgid "privacy_personal_1"
+msgstr "Mi možemo sakupljati osobne podatke od korisnika na više načina, uključujući kad korisnici pristupe stranici, ispune formular, i u vezi s drugim aktivnostima, servisima, uslugama, ili resursima koje učinimo dostupnim na stranici. Korisnici mogu biti upitani za, gdje je prikladno, ime i email adresu. Korisnici imaju mogućnost anonimnog pristupa stranici. Mi ćemo sakupljati osobne podatke samo ako korisnici dobrovoljno daju iste nama. Korisnici uvijek mogu odbiti dati osobne podatke, te u tom slučaju moguće da neće moći koristiti neke dijelove stranice."
+
+msgid "privacy_non_personal"
+msgstr "Informacije o ostalim podatcima korisnika"
+
+msgid "privacy_non_personal_1"
+msgstr "Mi možemo sakupljati ostale podatke(one koji nisu osobni, tj. nemaju karakteristiku osobne identifikacije) od korisnika kad god oni stupaju u interakciju s stranicom. Takvi podatci mogu sadržavati ime internet preglednika, vrstu klijentskog računala, te ostale tehničke informacije o korisnicima."
+
+msgid "privacy_cookies"
+msgstr "Kolačići"
+
+msgid "privacy_cookies_1"
+msgstr "Naša stranica može koristiti kolačiće da poboljša upotrebu stranice. Korisnikov internet preglednik sprema kolačiće na klijentski tvrdi-disk zbog vođenja evidencije i ponekad za praćenje informacija o korisnicima. Korisnici mogu postaviti internet preglednik da onemogući upotrebu kolačića, ili da ih obavijesti kad prima kolačiće. Ako se onemogući upotreba kolačića neki dijelovi stranice možda neće raditi ispravno."
+
+msgid "privacy_use"
+msgstr "Kako koristimo prikupljene informacije"
+
+msgid "privacy_use_1"
+msgstr "Igor Sikaček može prikupiti osobne informacije korisnika u sljedeće svrhe:"
+
+msgid "privacy_use_2"
+msgstr "- Za rad i održavanje stranice."
+
+msgid "privacy_use_3"
+msgstr "Moguće je da za pravilno prikazivanje određenog sadržaja na stranici su potrebne korisnikove informacije."
+
+msgid "privacy_use_4"
+msgstr "Vaša email adresa se može koristiti za odgovore na upite, pitanja, ili drugu komunikaciju."
+
+msgid "privacy_protect"
+msgstr "Kako štitimo vaše informacije"
+
+msgid "privacy_protect_1"
+msgstr "Mi smo usvojili primjerene prakse i sigurnosne mjere što se tiče prikupljanja, skladištenja, i obrade podataka koji štite od neovlaštenog pristupa, izmjene, objave, ili uništenja vaših osobnih podataka, korisničkog imena, zaporke, informacija o transakcijama, te ostalih podataka koji su pohranjeni na stranici."
+
+msgid "privacy_share"
+msgstr "Dijeljenje korisničkih osobnih informacija"
+
+msgid "privacy_share_1"
+msgstr "Mi ne prodajmo, trgujemo sa, ili iznajmljujemo korisničke osobne podatke s drugima. Mi možemo dijeliti opće agregirane demografske podatke, nevezane za osobne podatke korisnika, s našim poslovnim partnerima, pouzdanim podružnicama i oglašivačima za prije navedene svrhe."
+
+msgid "privacy_share_2"
+msgstr "Možemo dijeliti ili prodavati ostale podatke s trećim stranama za marketing ili druge svrhe."
+
+msgid "privacy_third"
+msgstr "Druge stranice"
+
+msgid "privacy_third_1"
+msgstr "Korisnici mogu vidjeti oglase ili drugi sadržaj na stranici koji je veza na druge stranice i usluge od naših  partnera, dobavljača, oglašavača, sponzora, davatelja licence, i ostalih trećih strana. Mi ne kontroliramo sadržaj ili veze na tim stranicama i nismo odgovorni za praksu primijenjenu s strane tih stranica. Dodatno, te stranice ili usluge mogu imati vlastita pravila privatnosti i uvjete korištenja. Pregled i korištenje takvih vanjskih stranica, uključujući one koje imaju vezu s ove stranice, je podložno njihovim pravilima privatnosti i uvjetima korištenja."
+
+msgid "privacy_changes"
+msgstr "Izmjene pravila privatnosti"
+
+msgid "privacy_changes_1"
+msgstr "Igor Sikaček zadržava pravo da izmijeni ova pravila privatnosti bilo kad. Potičemo korisnike da često provjere ovu pod-stranicu za bilo kakve promjene o tome kako se trudimo zaštititi osobne podatke koje prikupljamo. Priznajete i prihvaćate vašu odgovornost periodičkog pregleda ovih pravila privatnosti zbog mogućnosti izmjene istih."
+
+msgid "privacy_accept"
+msgstr "Vaše prihvaćanje ovih pravila"
+
+msgid "privacy_accept_1"
+msgstr "Korištenjem ove stranice, potvrđujete pristanak ovih pravila privatnosti. Ako se ne slažete s ovim pravilima, molimo ne koristite stranicu. Vaše kontinuirano korištenje stranice nakon izmjene ovih pravila će važiti kao pristanak istih. Ova pravila privatnosti su napravljena s besplatnim generatorom pravila privatnosti, te prevedena na hrvatski."
+
+msgid "privacy_contact"
+msgstr "Kontakt"
+
+msgid "privacy_contact_1"
+msgstr "Ako imate pitanja o pravilima privatnosti, praksama stranice, ili neka druga pitanja slobodno nas kontaktirajte."
+
+msgid "privacy_timestamp"
+msgstr "Zadnja izmjena ove stranice je bila *date*."
+
+
+#: templates/attributions.html
+
+msgid "attributions_title"
+msgid "Akreditacija sadržaja"
+
+msgid "attributions_about"
+msgstr "O stranica: "
+
+msgid "attributions_404"
+msgstr "404 stranica: "
+
+msgid "attributions_500"
+msgstr "500 stranica: "
+
+msgid "attributions_1"
+msgstr "Dizajn: "
+
+msgid "attributions_2"
+msgstr "Vektorska grafika: "
+
+msgid "attributions_3"
+msgstr "Dizajn"
+
+msgid "attributions_4"
+msgstr "Vektorska grafika: "
+
+
+#: templates/mit.html
+
+msgid "mit-nonenglish"
+msgstr "<p>Originalni tekst:</p>"
+
+
+#: templates/about.html
+
+msgid "about_hi"
+msgstr "Bok!"
+msgid "about_me"
+msgstr "Ja sam Igor, programer iz Zagreba sa preko 10 godina profesionalnog iskustva na bojištu, ali još uvijek s trajnim uzbuđenjem za nove izazove."
+msgid "about_products"
+msgstr "Radio sam na projektima koje koriste stotine korisnika u kritičnim točkama poslovanja kao: izvještavanje solventnosti, međubankovna izvješća stanja, vlastoručno e-potpisivanje u poslovnicama, posebno IVR preusmjeravanje poziva s CRM sustavom, …itd."
+msgid "about_project_needs"
+msgstr "Da bih dorastao tehničkim izazovima sa (ponekad) više istovremenih projekata, razvio sam brzo prihvaćanje tehnologija, organizacijske i pismene vještine, te brzu i čestu komunikaciju s korisnicima."
+msgid "about_users"
+msgstr "Obično to je uključivalo komunikaciju s korisnicima potrebna pojašnjenja zahtijeva, promjene u specifikacijama, analiza grešaka, te predlaganje novih funkcionalnosti. Na većim projektima to bi također uključivalo iterativni razvoj, DTAP način rada, vremenska procjena ispravaka/novih funkcionalnosti, demo primjeri, te priprema prezentacijskih materijala."
+msgid "about_team"
+msgstr "Naravno sve spomenuto je unutar sfere timskog rada i, za mene, jedno od najvećih zadovoljstava razvoja je rad s pouzdanim i sposobnim timom koji dijeli zajedničku viziju proizvoda. Zbog različitih projekata radio sam s različitim timovima, te se osjećam jednako ugodno radeći samostalno, kao dio peer review grupe, ili u pair programming okolini."
+msgid "about_programming"
+msgstr "Sa programerske perspektive radio sam web frontend, backend, i razvoj na bazama podataka, bilo na pojedinačnom ili na svim segmentima razvoja, ovisno o projektu. To mi je omogućilo da steknem iskustvo s više najkorištenijih programskih jezika, frameworka, platformi, …itd. preko svih prije spomenutih segmenata razvoja."
+msgid "about_tools"
+msgstr "Također sam razvijao Windows i command line aplikacije, imao iskustva s mnogim GUI i command line alatima, te čak sam i napravio mobilnu aplikaciju koja se koristi u preko 25 poslovnica sa sveukupno preko 100 korisnika."
+msgid "about_technical"
+msgstr "Isto tako sam radio optimizaciju koda i sql upita, dizajn sheme baze podataka, integraciju sustava, migraciju i čišćenje podataka, rad s starim(legacy) aplikacijama, te nešto malo obrnutog inženjeringa i analize mrežnog prometa."
+msgid "about_design"
+msgstr "Moj glavni cilj je uvijek bio da biti općenito što bolji programer i rješavač problema, i zbog toga moj fokus je uvijek bio na učenju i primjeni najboljih praksa te razvijanju vještina dizajna programskog koda i arhitekture. Zbog toga sam razvijao i uspješno primijenio alate poput design patterna, SOLID-a, testiranja, TDD-a, te prije spomenutih vještina."
+msgid "about_personal"
+msgstr "Kad ne radim, učim, ili mislim o programiranju obično uživam u igrama na ploči, kuhanju, čitanju, filmovima, hokeju, te generalnom druženju."
+
+
+#: templates/_404.html
+
+msgid "404_title"
+msgstr "404 - stranica nije nađena"
+
+msgid "404_description"
+msgstr "Ti nisi ovdje htio ići, zašto ne odeš negdje drugdje..."
+
+
+#: templates/_500.html
+
+msgid "500_title"
+msgstr "500 - Unutrašnja server greška!"
+
+msgid "500_description"
+msgstr "... popravit ću!"
+
+
+#: templates/_cv_head.html
+
+msgid "cv_head_download"
+msgstr "Preuzmite CV u različitim formatima:"
+
+msgid "cv_head_standard"
+msgstr "Standardni:"
+
+msgid "cv_head_europass"
+msgstr "Europass:"
+
+
+#: templates/projects.html
+
+msgid "projects_awk-it_desc"
+msgstr "Emacs paket koji pruža interaktivno AKW procesiranje na odabranom tekstu."
+
+msgid "projects_oms_desc"
+msgstr "Outlook plug in za brzo kopiranje/izvoz proizvoljno formatiranih sažetaka mail poruka."
+
+msgid "projects_envar_desc"
+msgstr "Windows lokani i udaljeni upravitelj varijablama okoline."
+
+
+#: templates/projects/awk-it.html
+
+msgid "awk-it-title"
+msgstr "AWK It!"
+
+msgid "awk-it-intro"
+msgstr "AWK it! je <a href=""https://www.gnu.org/software/emacs/">Emacs</a> paket koji omogučuje interaktivnu transformaciju teksta pomoču AWK alata; odabrana regija se šalje u awk, te se koriti yasnippet kao interaktivno sučelje. Zadnju verziju možete naći <a href="https://github.com/isikacek/awk-it">ovdje</a>, a postoji i <a href="https://www.emacswiki.org/emacs/AWK_It">wiki</a>."
+
+msgid "awk-it-show-demo"
+msgstr "Pokaži demo"
+
+msgid "awk-it-hide-demo"
+msgstr "Sakrij demo"
+
+msgid "awk-it-no-video"
+msgstr "Vaš preglednik ne podržava HTML5 video."
+
+msgid "awk-it-details-1"
+msgstr "Postoje 3 načina rada AWK transformacija: jednostavna sintaksa (zadano, vidi dolje), sintaksa u jednoj liniji (normalna AWK sintaksa ali samo unutar zadanog AWK podudaranja) i puna AWK sintaksa (standardni AWK kod). AWK it! može transformirati kod iz jednog u drugi način rada (prema nesavršeno, ali radi pravilno u gotovo svim slučajevima), te postoji podrška za višetruke linije. Podatci se proširuju s zadanom yasnippet expand tipkovničkom kraticom."
+
+msgid "awk-it-details-2"
+msgstr "U najjednostavnijem primjeru odabere se regija i pokrene M-x awk-it. Zadani separator polja je razmak. AWK it! transformira svaki red koji nije prazan u regiji ($0 !~ /^$/)."
+
+msgid "awk-it-details-3"
+msgstr "Nakon pokretanja naredbe buffer će se promijeniti u sljedeće sučelje:"
+
+msgid "awk-it-code-1"
+msgstr ""
+"    Data: &lt;Prva linija s najviše polja&gt;\n"
+"    AWK pattern: &lt;AWK kod; može biti više linija bez dodatnog formatiranja&gt;\n"
+"    &lt;AWK transformacija&gt;\n"
+
+msgid "awk-it-example-1"
+msgstr "Primjer transformacije teksta u HTML:"
+
+msgid "awk-it-example-2"
+msgstr "Iz:"
+
+msgid "awk-it-code-2"
+msgstr ""
+"    John 26 London\n"
+"    Mark 27 Seattle 50\n"
+"    Scott 26 Sydney\n"
+
+msgid "awk-it-example-3"
+msgstr "u (zanemarajući dodatno polje u podatcima):"
+
+msgid "awk-it-code-3"
+msgstr ""
+"    Data: Mark 27 Seattle 50\n"
+"    AWK pattern: &lt;person name=\"$1\" age=\"$2\"&gt;\n"
+"    &lt;location&gt;$3&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"John\" age=\"26\"&gt;\n"
+"    &lt;location&gt;London&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"Mark\" age=\"27\"&gt;\n"
+"    &lt;location&gt;Seattle&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"Scott\" age=\"26\"&gt;\n"
+"    &lt;location&gt;Sydney&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+
+msgid "awk-it-example-4"
+msgstr "i nakon transformacije:"
+
+msgid "awk-it-code-4"
+msgstr ""
+"    &lt;person name=\"John\" age=\"26\"&gt;\n"
+"        &lt;location&gt;London&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"Mark\" age=\"27\"&gt;\n"
+"        &lt;location&gt;Seattle&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+"    &lt;person name=\"Scott\" age=\"26\"&gt;\n"
+"        &lt;location&gt;Sydney&lt;/location&gt;\n"
+"    &lt;/person&gt;\n"
+
+msgid "awk-it-example-5"
+msgstr "Transformirane linije su automatski uvučene (indented), te undo buffer ide unatrag prije awk-it pokretanja (obje opcije se mogu izmijeniti)."
+
+msgid "awk-it-options-1"
+msgstr "Prilikom unosa koda sljdeće opcije su dostupne:"
+
+msgid "awk-it-options-2"
+msgstr "C-c s - promijeni separator polja"
+
+msgid "awk-it-options-3"
+msgstr "C-c t - odabir između razmaka i tab skraćivanja (trimming) oko izmjenjenog separatora polja"
+
+msgid "awk-it-options-4"
+msgstr "C-c &lt;up&gt; - sljedeći AWK it! način rada (jednostavni →&nbsp;jedna linija →&nbsp;puni →&nbsp;jednostavni →&nbsp;…)"
+
+msgid "awk-it-options-5"
+msgstr "C-c &lt;down&gt; - prethodni AWK it! način rada (puni →&nbsp;jedna linija →&nbsp;jednostavni →&nbsp;puni …)"
+
+msgid "awk-it-options-6"
+msgstr "Nakon transformacije postoje sljedeće opcije: "
+
+msgid "awk-it-options-7"
+msgstr "M-x awk-it-to-kill-ring - kopira zadnji AWK kod u kill ring"
+
+msgid "awk-it-options-8"
+msgstr "M-x awk-it-to-file - kopira zadnji AWK kod (puni ili transformirani u puni) u datoteku"
+
+msgid "awk-it-simplified-1"
+msgstr "Jednostavni AWK kod se razlikuje od normalnog u tome da:"
+
+msgid "awk-it-simplified-2"
+msgstr "ispisuje kod (print \"&lt;kod&gt;\")"
+
+msgid "awk-it-simplified-3"
+msgstr "označuje (escapes) dvostruke i jednostruke navodnike (zadnje je potrebno za shell interakciju)"
+
+msgid "awk-it-simplified-4"
+msgstr "označuje (escapes) novu liniju (newline)"
+
+msgid "awk-it-simplified-5"
+msgstr "spaja (concatenates) polja s ostatkom teksta"
+
+msgid "awk-it-single"
+msgstr "Jedna linija način rada je normalni AWK kod koji se pokreće za svako zadano uparivanje. Prethodni primjer napisan u toj sintaksi bi bio:"
+
+msgid "awk-it-code-5"
+msgstr ""
+"    print \"&lt;person name=\\"\" $1 \"\\" age=\\"\" $2 \"\\"&gt;\"
+"n\\n"
+"    &lt;location&gt;\" $3 \"&lt;/location&gt;\"
+"n\\n"
+"    &lt;/person&gt;\"\n"
+
+msgid "awk-it-raw"
+msgstr "Puni način rada je puni, ili normalni AWK kod koji je potreban za transformaciju podataka. Prethodni primjer napisan u toj sintaksi bi bio:"
+
+msgid "awk-it-code-6"
+msgstr ""
+"    $0 !~ /^$/ {\n"
+"        print \"&lt;person name=\\"\" $1 \"\\" age=\\"\" $2 \"\\"&gt;\"
+"n\\n"
+"        &lt;location&gt;\" $3 \"&lt;/location&gt;\"
+"n\\n"
+"        &lt;/person&gt;\";\n"
+"    }\n"
+"    \n"
+"    /^$/ { print }\n"
+
+msgid "awk-it-modes"
+msgstr "AWK it! također može biti pokrenut u bilo kojem načinu rada, s posebnim separatorom polja, s podatcima iz datoteke kao AWK kod (u punom načinu), ili može automatski transformirati regiju s podatcima iz datoteke kao AWK kod (u punom načinu)."
+
+msgid "awk-it-function-1"
+msgstr "S svim opcijama sljedeće funkcije su dostupne:"
+
+msgid "awk-it-function-2"
+msgstr "awk-it                             - osnovni AWK it! - pokrene se u jednostavnom načinu rada"
+
+msgid "awk-it-function-3"
+msgstr "awk-it-with-separator              - jednostavni način rada s proizvoljnim separatorom polja"
+
+msgid "awk-it-function-4"
+msgstr "awk-it-single                      - pokretanje u jedna linija načinu rada"
+
+msgid "awk-it-function-5"
+msgstr "awk-it-single-with-separator       - jedna linija način rada s proizvoljnim separatorom polja"
+
+msgid "awk-it-function-6"
+msgstr "awk-it-raw                         - pokretanje u punom načinu rada"
+
+msgid "awk-it-function-7"
+msgstr "awk-it-file                        - automatska transformacija s AWK datotekom"
+
+msgid "awk-it-function-8"
+msgstr "awk-it-with-file                   - pokretanje u punom načinu rada s kodom iz AWK datoteke"
+
+msgid "awk-it-function-9"
+msgstr "awk-it-to-kill-ring                - stavlja zadnji AWK kod u kill ring"
+
+msgid "awk-it-function-10"
+msgstr "awk-it-to-file                     - zapisuje zadnji AWK kod u datoteku"
+
+msgid "awk-it-custom-1"
+msgstr "Također AWK it! ima sljedeće opcije (External →&nbsp;Awk it): "
+
+msgid "awk-it-custom-2"
+msgstr "awk-it-load-hook; kod koji se pokreče nakon što se AWK it! učita"
+
+msgid "awk-it-custom-3"
+msgstr "awk-it-default-separator           - zadani AWK separator polja - ‘ ‘"
+
+msgid "awk-it-custom-4"
+msgstr "awk-it-default-row-filter          - zadani AWK filter redova - ‘$0 !~ /^$/’"
+
+msgid "awk-it-custom-5"
+msgstr "awk-it-file-first-line             - prva linija zapisana u AWK datoteku"
+
+msgid "awk-it-custom-6"
+msgstr "awk-it-default-mode                - zadani početni način rada za awk-it"
+
+msgid "awk-it-custom-7"
+msgstr "awk-it-undo                        - da li undo ignorira AWK it! izmjene"
+
+msgid "awk-it-custom-8"
+msgstr "awk-it-indent                      - da li da transformirani tekst bude automatski uvučen (indented)"
+
+msgid "awk-it-custom-9"
+msgstr "awk-it-extra-awk-code              - dodatni AWK kod koji je dodan u puni AWK"
+
+msgid "awk-it-custom-10"
+msgstr "awk-it-toggle-trim-keybinding      - tipkovnička kratica za korištenje automatskog skračivanja (trimming)"
+
+msgid "awk-it-custom-11"
+msgstr "awk-it-field-separator-keybinding  - tipkovnička kratica za izmjenu separatora polja"
+
+msgid "awk-it-custom-12"
+msgstr "awk-it-next-mode-keybinding        - tipkovnička kratica za sljedeći način rada"
+
+msgid "awk-it-custom-13"
+msgstr "awk-it-previous-mode-keybinding    - tipkovnička kratica za prethodni način rada"
+
+
+
+
+
+
+
+
+
+

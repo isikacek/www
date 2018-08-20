@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+    <head>
+        <title>Igor Sikaček</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Igor Sikaček home">
+        <meta name="keywords" content="Igor Sikaček isikacek zageb programming programer razvoj development">
+        <meta name="author" content="Igor Sikaček">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/static/main.css" />
+        <style type="text/css">
+            #top-links a[href$="{{request.endpoint}}"] {
+                background: #6B7485;
+            }
+            .lang-ui .{{lang}} {
+                border: solid 1px white;
+            }
+        </style>
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        <div id="top-bar">
+            <a id="home" href="{{ link_suffix }}">
+                <span id="top-title">Igor Sikaček</span>
+            </a>
+            <span id="touch-area">
+              <span id="m-options"></span>
+                <span id="top-links"><!--
+                    --><a href="/about{{ link_suffix }}">{{ _('About') }}</a><!--
+                    --><a href="/projects{{ link_suffix }}">{{ _('Projects') }}</a><!--
+                    --><a href="/cv{{ link_suffix }}">{{ _('CV') }}</a><!--
+                    --><a href="/contact{{ link_suffix }}">{{ _('Contact') }}</a>
+                </span>
+            </span>
+            <span id="legal-lang-top">
+                {% include "_legal_lang.html" %}
+            </span>
+        </div>
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+        <div id="legal-lang-bottom">
+            {% include "_legal_lang.html" %}
+        <div>
+    </body>
+</html>

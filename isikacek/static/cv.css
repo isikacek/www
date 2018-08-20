@@ -1,0 +1,90 @@
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+#cv-main > p {
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.main-columns {
+    column-count: 3;
+    margin-top: 2rem;
+}
+
+.main-columns > * {
+    margin: 0px;
+}
+
+.company {
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.company-title {
+    font-weight: bold;
+}
+
+.company-date {
+    float: right;
+}
+
+.project {
+    margin-top: 4rem;
+}
+
+.project-name {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.project-date {
+    font-size: 1rem;
+}
+
+.project-customer {
+    font-weight: bold;
+    float: right;
+    font-size: 1.25rem;
+}
+
+.project-description {
+    margin-top: 1rem;
+}
+
+.project-details {
+    display: flex;
+    margin: auto;
+    max-width: 45rem;
+}
+
+.project-details > * {
+    display: inline-block;
+    width: 50%;
+}
+
+.project-details > *:nth-child(2) {
+    float: right;
+}
+
+.simple-line {
+    text-align: center;
+}
+
+#cv-table {
+    margin: auto;
+}
+
+#cv-table td {
+    padding: 0rem 0.5rem;
+}

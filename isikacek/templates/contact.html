@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+{% block head %}
+    <style>
+        #content {
+            -ms-animation: none!important; /*ie 11 bugfix*/
+        }
+        #info {
+            display: inline-block;
+            margin-right: 10%;
+        }
+        #info > div > span:first-child {
+            width: 5rem;
+            display: inline-block;
+            text-align: right;
+            margin-right: 1.25rem;
+        }
+        #msg {
+            margin-top: 1.875rem;
+            display: inline-block;
+            vertical-align: top;
+        }
+        #msg fieldset {
+            border: none;
+        }
+        #msg .field {
+            height: 2.25rem;
+            width: 20rem;
+            margin-bottom: 1.875rem;
+            display: block;
+            font: inherit;
+            padding: 0 1rem;
+        }
+        #message.field {
+            height: 6.25rem;
+            font: inherit;
+            padding: 0 1rem;
+        }
+        .send {
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 0.125rem;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+        #send {
+            display: none;
+        }
+        #msg-sent {
+            margin-left: 20px;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <div style="max-width: 46rem;" class="base-align">
+        <div id="info">
+            <h1>{{ _('contact_title') }}</h1>
+            <div>
+                <span>email</span>
+                <span>isikacek@gmail.com</span>
+            </div>
+            <div>
+                <span>linkedin</span>
+                <span>linkedin</span>
+            </div>
+            <div>
+                <span>tel</span>
+                <span>tel?</span>
+            </div>
+            <div>
+                <span>github</span>
+                <span>github</span>
+            </div>
+            <div>
+                <span>google+</span>
+                <span>google+</span>
+            </div>
+            <div>
+                <span>skype</span>
+                <span>igor.sikacek</span>
+            </div>
+        </div>
+        <div id="msg">
+            <fieldset>
+                <form method="post" action="/contact">
+                    <legend>{{ _('contact_send_message') }}</legend>
+                    <input class="field" type="text" placeholder="{{ _('contact_name') }}" id="name" name="name" />
+                    <input class="field" type="email" placeholder="{{ _('contact_email') }}" id="email" name="email" />
+                    <input class="field" type="text" placeholder="{{ _('contact_subject') }}" id="title" name="title" />
+                    <textarea placeholder="{{ _('contact_message') }}" class="field" id="message" name="message"></textarea>
+                    <input type="submit" id="sendNoJs" class="send" value="Send" />
+                </form>
+                <div>
+                    <button class="send" id="send" onclick="sendMsg(); return false;">{{ _('contact_send') }}</button>
+                    <span id="msg-sent"></span>
+                <div>
+            </fieldset>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /* small js code - no jQuery nedded - includes fallback if no js */
+        var encValueOf = function(id) {
+            var x = document.getElementById(id);
+            if (x === null
+                || x === undefined
+                || x.value === null
+                || x.value === undefined) {
+
+                return '';
+            }
+            return encodeURIComponent(x.value);
+        }
+        var sendMsg = function() {
+            var xhr = new XMLHttpRequest()
+                msg = document.getElementById('msg-sent');
+            xhr.open('POST', 'contact');
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    msg.innerText = '{{ _('contact_sent') }}';
+                } else {
+                    msg.innerText = '{{ _('contact_failed') }} ' + xhr.status;
+                }
+            };
+            xhr.send(
+                'name=' + encValueOf('name') + '&'
+                + 'email=' + encValueOf('email') + '&'
+                + 'title=' + encValueOf('title') + '&'
+                + 'message=' + encValueOf('message'));
+        };
+
+        window.onload = function() {
+            document.getElementById('send').style['display'] = 'inline-block';
+            document.getElementById('sendNoJs').style['display'] = 'none';
+        }
+    </script>
+{% endblock %}

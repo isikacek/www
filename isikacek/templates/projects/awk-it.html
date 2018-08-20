@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block head %}
+    <style type="text/css">
+        #video {
+            display: none;
+        }
+        #video-btn {
+            margin: 0.625rem;
+            padding: 0.3rem;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+        }
+    </style>
+    <script type="text/javascript">
+    <!--
+        var toggle_video = function() {
+            var video = document.getElementById('video');
+            var video_btn = document.getElementById('video-btn');
+            if ('' === video.style.display) {
+                video_btn.innerText = '{{ _('awk-it-hide-demo') }}';
+                video.style.display = 'block';
+                video.currentTime = 0;
+                video.play();
+            } else {
+                video_btn.innerText = '{{ _('awk-it-show-demo') }}';
+                video.style.display = '';
+                video.pause();
+                video.currentTime = 0;
+            }
+        }
+    -->
+    </script>
+{% endblock %}
+{% block content %}
+    <div>
+        <div class="project-logo" style="background-image: url(/static/awk-it-logo.png);"></div>
+        <div class="title">{{ _('awk-it-title') }}</div>
+        <p>{{ _('awk-it-intro') }}</p>
+        <div>
+            <div onclick="toggle_video();" id="video-btn">{{ _('awk-it-show-demo') }}</div>
+            <video id="video" preload="none" loop>
+                <source src="/static/awk-it.mp4" type="video/mp4">
+                {{ _('awk-it-no-video') }}
+            </video>
+        </div>
+        <p>{{ _('awk-it-details-1') }}</p>
+        <p>{{ _('awk-it-details-2') }}</p>
+        <p>{{ _('awk-it-details-3') }}</p>
+        <pre>{{ _('awk-it-code-1') }}</pre>
+        <p>{{ _('awk-it-example-1') }}</p>
+        <p>{{ _('awk-it-example-2') }}</p>
+        <pre>{{ _('awk-it-code-2') }}</pre>
+        <p>{{ _('awk-it-example-3') }}</p>
+        <pre>{{ _('awk-it-code-3') }}</pre>
+        <p>{{ _('awk-it-example-4') }}</p>
+        <pre>{{ _('awk-it-code-4') }}</pre>
+        <p>{{ _('awk-it-example-5') }}</p>
+        <p>{{ _('awk-it-options-1') }}</p>
+        <ul>
+            <li>{{ _('awk-it-options-2') }}</li>
+            <li>{{ _('awk-it-options-3') }}</li>
+            <li>{{ _('awk-it-options-4') }}</li>
+            <li>{{ _('awk-it-options-5') }}</li>
+        </ul>
+        <p>{{ _('awk-it-options-6') }}</p>
+        <ul>
+            <li>{{ _('awk-it-options-7') }}</li>
+            <li>{{ _('awk-it-options-8') }}</li>
+        </ul>
+        <p>{{ _('awk-it-simplified-1') }}</p>
+        <ul>
+            <li>{{ _('awk-it-simplified-2') }}</li>
+            <li>{{ _('awk-it-simplified-3') }}</li>
+            <li>{{ _('awk-it-simplified-4') }}</li>
+            <li>{{ _('awk-it-simplified-5') }}</li>
+        </ul>
+        <p>{{ _('awk-it-single') }}</p>
+        <pre>{{ _('awk-it-code-5') }}</pre>
+        <p>{{ _('awk-it-raw') }}</p>
+        <pre>{{ _('awk-it-code-6') }}</pre>
+        <p>{{ _('awk-it-modes') }}</p>
+        <p>{{ _('awk-it-function-1') }}</p>
+        <ul>
+            <li>{{ _('awk-it-function-2') }}</li>
+            <li>{{ _('awk-it-function-3') }}</li>
+            <li>{{ _('awk-it-function-4') }}</li>
+            <li>{{ _('awk-it-function-5') }}</li>
+            <li>{{ _('awk-it-function-6') }}</li>
+            <li>{{ _('awk-it-function-7') }}</li>
+            <li>{{ _('awk-it-function-8') }}</li>
+            <li>{{ _('awk-it-function-9') }}</li>
+            <li>{{ _('awk-it-function-10') }}</li>
+        </ul>
+        <p>{{ _('awk-it-custom-1') }}</p>
+        <ul>
+            <li>{{ _('awk-it-custom-2') }}</li>
+            <li>{{ _('awk-it-custom-3') }}</li>
+            <li>{{ _('awk-it-custom-4') }}</li>
+            <li>{{ _('awk-it-custom-5') }}</li>
+            <li>{{ _('awk-it-custom-6') }}</li>
+            <li>{{ _('awk-it-custom-7') }}</li>
+            <li>{{ _('awk-it-custom-8') }}</li>
+            <li>{{ _('awk-it-custom-9') }}</li>
+            <li>{{ _('awk-it-custom-10') }}</li>
+            <li>{{ _('awk-it-custom-11') }}</li>
+            <li>{{ _('awk-it-custom-12') }}</li>
+            <li>{{ _('awk-it-custom-13') }}</li>
+        </ul>
+        <a href="https://github.com/isikacek/awk-it">
+            <img id="github" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
+        </a>
+    </div>
+{% endblock %}
