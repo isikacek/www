@@ -1,4 +1,5 @@
 # Croatian translations for PROJECT.
+# Croatian translations for PROJECT.
 # Copyright (C) 2017 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
@@ -79,7 +80,7 @@ msgstr "Zathijev nije prošao. vračen status"
 #: templates/terms.html
 
 msgid "terms_website"
-msgstr "*WEBSITE* je internet stranica ("stranica") koju održava Igor Sikaček. "
+msgstr "isikacek.com je internet stranica ("stranica") koju održava Igor Sikaček. "
 
 msgid "terms_website_1"
 msgstr "Pristupanjem ovoj stranici slažete se s navedenim uvjetima korištenja, svim primjenjivim zakonima i regulativom, te slažete se da se odgovorni pridržavati se svih primjenjivih lokalnih zakona. Ako se ne slažete s navedenim uvjetima zabranjeno vam je korištenje, pristup, ili vezivanje na stranicu."
@@ -100,10 +101,10 @@ msgid "terms_site_info_4"
 msgstr "Zadržavamo pravo izmjene ili uklanjanja bilo kojeg sadržaja na ovoj stranici bilo kad, bez prethodne obavijesti."
 
 msgid "terms_site_info_5"
-msgstr "Također zadržavamo pravo ukidanje pristupa ovoj stranici bilo kad i na bilo koji period bez prethodne obavijesti."
+msgstr "Također zadržavamo pravo ukidanja pristupa ovoj stranici bilo kad i na bilo koji period bez prethodne obavijesti."
 
 msgid "terms_site_info_6"
-msgstr "Zbog toga ne prihvaća se nikakva odgovornost za direktan, indirektan, ili posljedični gubitak ili štetu bilo koje vrste nastalu zbog zastarjelog sadržaja, nemogućnosti pristupa stranici ili prestanak pružanja usluge prikaza stranice."
+msgstr "Zbog toga ne prihvaća se nikakva odgovornost za direktan, indirektan, ili posljedični gubitak ili štetu bilo koje vrste nastalu zbog zastarjelog sadržaja, nemogućnosti pristupa stranici ili prestanka pružanja usluge prikaza stranice."
 
 msgid "terms_site_info_7"
 msgstr "Sve veze na druge stranice, informaciju, i materijale su samo za informativne svrhe i mogu biti izmijenjene, uklonjene ili njihov sadržaj može postati nedostupan bilo kad."
@@ -124,13 +125,13 @@ msgid "terms_rights_2"
 msgstr "Gdje je potrebno, tuđi sadržaj je akreditiran u slike pod-stranici."
 
 msgid "terms_rights_3"
-msgstr "Programski kod stranice je licenciran pod <a href="/mit?lang=hr">MIT licencom</a>."
+msgstr "Programski kod stranice je licenciran pod <a href=\"/mit?lang=hr\">MIT licencom</a>."
 
 msgid "terms_user"
 msgstr "Informacije o korisniku"
 
 msgid "terms_user_1"
-msgstr "Informacije o posjetiteljima stranice se obrađuju u skladu s navedenim pravilima privatnosti, te korištenjem stranice prihvaćate iste."
+msgstr "Informacije o posjetiteljima stranice se obrađuju u skladu s navedenim <a href=\"/privacy\">pravilima privatnosti</a>, te korištenjem stranice prihvaćate iste."
 
 msgid "terms_misuse"
 msgstr "Zloupotreba stranice"
@@ -148,13 +149,13 @@ msgid "terms_contact_1"
 msgstr "Ako imate bilo kakva pitanja o uvjetima korištenja slobodno nam javite. "
 
 msgid "terms_timestamp"
-msgstr "Zadnja izmjena ove stranice je bila *date*."
+msgstr "Zadnja izmjena ove stranice je bila 01.11.2018."
 
 
 #: templates/privacy.html
 
 msgid "privacy_policy"
-msgstr "Ova pravila privatnosti određuju način na koji Igor Sikaček sakuplja, koristi, održava, i prosljeđuje informacije sakupljene od posjetitelja(“Korisnik”) internet stanice *WEBSITE* (“Stranica”)."
+msgstr "Ova pravila privatnosti određuju način na koji Igor Sikaček sakuplja, koristi, održava, i prosljeđuje informacije sakupljene od posjetitelja (“Korisnik”) internet stanice isikacek.com (“Stranica”)."
 
 msgid "privacy_personal"
 msgstr "Informacije o osobnim podatcima korisnika"
@@ -166,7 +167,7 @@ msgid "privacy_non_personal"
 msgstr "Informacije o ostalim podatcima korisnika"
 
 msgid "privacy_non_personal_1"
-msgstr "Mi možemo sakupljati ostale podatke(one koji nisu osobni, tj. nemaju karakteristiku osobne identifikacije) od korisnika kad god oni stupaju u interakciju s stranicom. Takvi podatci mogu sadržavati ime internet preglednika, vrstu klijentskog računala, te ostale tehničke informacije o korisnicima."
+msgstr "Mi možemo sakupljati ostale podatke (one koji nisu osobni, tj. nemaju karakteristiku osobne identifikacije) od korisnika kad god oni stupaju u interakciju s stranicom. Takvi podatci mogu sadržavati ime internet preglednika, vrstu klijentskog računala, te ostale tehničke informacije o korisnicima."
 
 msgid "privacy_cookies"
 msgstr "Kolačići"
@@ -208,7 +209,7 @@ msgid "privacy_third"
 msgstr "Druge stranice"
 
 msgid "privacy_third_1"
-msgstr "Korisnici mogu vidjeti oglase ili drugi sadržaj na stranici koji je veza na druge stranice i usluge od naših  partnera, dobavljača, oglašavača, sponzora, davatelja licence, i ostalih trećih strana. Mi ne kontroliramo sadržaj ili veze na tim stranicama i nismo odgovorni za praksu primijenjenu s strane tih stranica. Dodatno, te stranice ili usluge mogu imati vlastita pravila privatnosti i uvjete korištenja. Pregled i korištenje takvih vanjskih stranica, uključujući one koje imaju vezu s ove stranice, je podložno njihovim pravilima privatnosti i uvjetima korištenja."
+msgstr "Korisnici mogu vidjeti oglase ili drugi sadržaj na stranici koji je veza na druge stranice i usluge od naših  partnera, dobavljača, oglašavača, sponzora, davatelja licence, i ostalih trećih strana. Mi ne kontroliramo sadržaj ili veze na tim stranicama i nismo odgovorni za praksu primijenjenu s strane tih stranica. Dodatno, te stranice ili usluge mogu imati vlastita pravila privatnosti i uvjete korištenja. Pregled i korištenje takvih vanjskih stranica, uključujući one koje imaju vezu s ove stranice, je podložno njihovim pravilima privatnosti i <a href=\"/terms\">uvjetima korištenja</a>."
 
 msgid "privacy_changes"
 msgstr "Izmjene pravila privatnosti"
@@ -229,7 +230,7 @@ msgid "privacy_contact_1"
 msgstr "Ako imate pitanja o pravilima privatnosti, praksama stranice, ili neka druga pitanja slobodno nas kontaktirajte."
 
 msgid "privacy_timestamp"
-msgstr "Zadnja izmjena ove stranice je bila *date*."
+msgstr "Zadnja izmjena ove stranice je bila 01.11.2018."
 
 
 #: templates/attributions.html
@@ -258,6 +259,9 @@ msgstr "Dizajn"
 msgid "attributions_4"
 msgstr "Vektorska grafika: "
 
+msgid "attributions_5"
+msgstr "Vektorska grafika: "
+
 
 #: templates/mit.html
 
@@ -272,7 +276,7 @@ msgstr "Bok!"
 msgid "about_me"
 msgstr "Ja sam Igor, programer iz Zagreba sa preko 10 godina profesionalnog iskustva na bojištu, ali još uvijek s trajnim uzbuđenjem za nove izazove."
 msgid "about_products"
-msgstr "Radio sam na projektima koje koriste stotine korisnika u kritičnim točkama poslovanja kao: izvještavanje solventnosti, međubankovna izvješća stanja, vlastoručno e-potpisivanje u poslovnicama, posebno IVR preusmjeravanje poziva s CRM sustavom, …itd."
+msgstr "Radio sam na projektima koje koriste stotine korisnika u kritičnim točkama poslovanja kao: izvještavanje solventnosti, međubankovna izvješća stanja, vlastoručno e-potpisivanje u poslovnicama, IVR preusmjeravanje poziva s CRM sustavom, ...itd."
 msgid "about_project_needs"
 msgstr "Da bih dorastao tehničkim izazovima sa (ponekad) više istovremenih projekata, razvio sam brzo prihvaćanje tehnologija, organizacijske i pismene vještine, te brzu i čestu komunikaciju s korisnicima."
 msgid "about_users"
@@ -284,7 +288,7 @@ msgstr "Sa programerske perspektive radio sam web frontend, backend, i razvoj na
 msgid "about_tools"
 msgstr "Također sam razvijao Windows i command line aplikacije, imao iskustva s mnogim GUI i command line alatima, te čak sam i napravio mobilnu aplikaciju koja se koristi u preko 25 poslovnica sa sveukupno preko 100 korisnika."
 msgid "about_technical"
-msgstr "Isto tako sam radio optimizaciju koda i sql upita, dizajn sheme baze podataka, integraciju sustava, migraciju i čišćenje podataka, rad s starim(legacy) aplikacijama, te nešto malo obrnutog inženjeringa i analize mrežnog prometa."
+msgstr "Isto tako sam radio optimizaciju koda i sql upita, dizajn sheme baze podataka, integraciju sustava, migraciju i čišćenje podataka, rad s starim (legacy) aplikacijama, te nešto malo obrnutog inženjeringa i analize mrežnog prometa."
 msgid "about_design"
 msgstr "Moj glavni cilj je uvijek bio da biti općenito što bolji programer i rješavač problema, i zbog toga moj fokus je uvijek bio na učenju i primjeni najboljih praksa te razvijanju vještina dizajna programskog koda i arhitekture. Zbog toga sam razvijao i uspješno primijenio alate poput design patterna, SOLID-a, testiranja, TDD-a, te prije spomenutih vještina."
 msgid "about_personal"
@@ -306,7 +310,7 @@ msgid "500_title"
 msgstr "500 - Unutrašnja server greška!"
 
 msgid "500_description"
-msgstr "... popravit ću!"
+msgstr "...popravit ću!"
 
 
 #: templates/_cv_head.html
@@ -339,7 +343,7 @@ msgid "awk-it-title"
 msgstr "AWK It!"
 
 msgid "awk-it-intro"
-msgstr "AWK it! je <a href=""https://www.gnu.org/software/emacs/">Emacs</a> paket koji omogučuje interaktivnu transformaciju teksta pomoču AWK alata; odabrana regija se šalje u awk, te se koriti yasnippet kao interaktivno sučelje. Zadnju verziju možete naći <a href="https://github.com/isikacek/awk-it">ovdje</a>, a postoji i <a href="https://www.emacswiki.org/emacs/AWK_It">wiki</a>."
+msgstr "AWK it! je <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a> paket koji omogučuje interaktivnu transformaciju teksta pomoču AWK alata; odabrana regija se šalje u awk, te se koriti yasnippet kao interaktivno sučelje. Zadnju verziju možete naći <a href=\"https://github.com/isikacek/awk-it\">ovdje</a>, a postoji i <a href=\"https://www.emacswiki.org/emacs/AWK_It\">wiki</a>."
 
 msgid "awk-it-show-demo"
 msgstr "Pokaži demo"
@@ -552,7 +556,123 @@ msgid "awk-it-custom-13"
 msgstr "awk-it-previous-mode-keybinding    - tipkovnička kratica za prethodni način rada"
 
 
+#: templates/projects/oms.html
 
+msgid "oms-title"
+msgstr "Outlook Message Summary"
+
+msgid "oms-download"
+msgstr "Preuzmi: <a href=\"/Outlook Message Summary 1.0.zip\">Outlook Message Summary 1.0.zip</a>"
+
+msgid "oms-intro-1"
+msgstr "Ovaj mali Outlook 2013 alat je nastao jer sam dobivao email poruke čiji sadržaj ili metapodatke sam trebao kopirati u drugi email/sustav te Outlook sučelje je bilo prenaporno za to."
+
+msgid "oms-intro-2"
+msgstr "Add-in stavi 'Summary' u mail item context meni koji pokreče predložak (npr. 'Naslov: {Subject}') i pošalje ga u jedan ili više kanala (međuspremnik, datoteka, ...itd.). Da bi se koristio samo se naprvi desni klik na email poruku i odabere se 'Summary'."
+
+msgid "oms-intro-3"
+msgstr "Sve postavke se namještavaju u 'File' -> 'Options' -> 'Add-Ins', odabirući 'Outlook Message Summary', i klik na 'Add-in Options' gumb."
+
+msgid "oms-template-title"
+msgstr "Predložak"
+
+msgid "oms-template-1"
+msgstr "Osnovna upotreba je da se koriste vitičaste zagrade (curly braces) da se umetnu email svojstva u predložak."
+
+msgid "oms-template-2"
+msgstr "Na primjer email s naslovom 'Bok Ivan!' i predloškom:"
+
+msgid "oms-template-code-1"
+msgstr "Naslov: {subject}"
+
+msgid "oms-template-3"
+msgstr "Će dati sljedeći sažetak:"
+
+msgid "oms-template-code-2"
+msgstr "Naslov: Bok Ivan!"
+
+msgid "oms-template-4"
+msgstr "Također se može koristiti napredno formatiranje kao formatiranje datuma/vremena, razmaka, poravnavanja, ...itd. Predložak se formatira koristeći <a href=\"https://docs.microsoft.com/en-us/dotnet/api/system.string.format\">.NET String.Format</a> (s email svojstvima umjesto slijednih vrijednosti)."
+
+msgid "oms-template-5"
+msgstr "Par primjera:"
+
+msgid "oms-template-code-3"
+msgstr ""
+"{receivedtime} - {sendername} - {subject}\n"
+"TODO: odgovori na email od {sendername} ({receivedtime:dd-mm-yyyy})"
+
+msgid "oms-channels-title"
+msgstr "Kanali"
+
+msgid "oms-channels-1"
+msgstr "Nakon što je predložak izveden, rezultat je poslan u jedan ili više 'kanala'. Oni su:"
+
+msgid "oms-channels-1-1"
+msgstr "Međuspremnik"
+
+msgid "oms-channels-1-2"
+msgstr "Rezultat je poslan u međuspremnik."
+
+msgid "oms-channels-2-1"
+msgstr "Prikaz rezultata"
+
+msgid "oms-channels-2-2"
+msgstr "Jednostavni prozor (dialog box) s rezultatom je prikazan."
+
+msgid "oms-channels-3-1"
+msgstr "Odabir datoteke"
+
+msgid "oms-channels-3-2"
+msgstr "Sučelje upita za lokaciju datoteka u koju se rezultat spremi kao tekst."
+
+msgid "oms-channels-4-1"
+msgstr "Nadodaj u"
+
+msgid "oms-channels-4-2"
+msgstr "Rezultat se nadoda u podešenu datoteku kao tekst."
+
+msgid "oms-channels-5-1"
+msgstr "HTTP poziv"
+
+msgid "oms-channels-5-2"
+msgstr "Rezultat se pošalje u podešeni servis koristeći HTTP. Može se postaviti:"
+
+msgid "oms-channels-5-3"
+msgstr "Koji 'HTTP verb' da se koristi."
+
+msgid "oms-channels-5-4"
+msgstr "Da li da se pošalje rezultat predloška kao 'HTTP body'."
+
+msgid "oms-channels-5-5"
+msgstr "URL odredišta - koji je sam zasebni predložak, i može korstiti prije opisanu notaciju i sva svojstva email poruke"
+
+msgid "oms-channels-5-6"
+msgstr "HTTP headers - HTTP zaglavlja koja su razdvojena novim redom sa 'ključ:vrijednost' formatom."
+
+msgid "oms-channels-6-1"
+msgstr "DLL poziv"
+
+msgid "oms-channels-6-2"
+msgstr "Također se rezultat može poslati u funkcije/metode u DLL-ovima na vašem sustavu, ako zadovolje traženo sučelje. Postoje dva slučaja:"
+
+msgid "oms-channels-6-3"
+msgstr "Managed DLL-ovi - moraju biti u formatu: namespace.class.method(string)"
+
+msgid "oms-channels-6-4"
+msgstr "Unmanaged DLL-ovi - moraju biti u formatu:"
+
+msgid "oms-channels-6-5"
+msgstr "function(const char *body)"
+
+msgid "oms-channels-6-6"
+msgstr "function(BSTR body)"
+
+msgid "oms-properties-title"
+msgstr "Svojstva"
+
+msgid "oms-properties-1"
+msgstr "Sva dostupna svojstva su dio <a href=\"https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook._mailitem?view=outlook-pia\">_MailItem Interface</a> svojstava:"
 
 
 

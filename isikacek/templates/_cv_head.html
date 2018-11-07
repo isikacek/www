@@ -20,4 +20,23 @@
             </td>
         <tr>
     </table>
+    <script type="text/javascript">
+        var toggle = function(x) {
+            var c = 'project-details';
+            x.className = x.className === c ? c + '-shown' : c;
+        };
+        var fWrap = function (f, p) {
+            return function() { f(p) };
+        };
+        window.addEventListener('load', function() { 
+            var xs = document.getElementsByClassName('project-details');
+            for (var i = 0, l = xs.length; i < l; i++) {
+                var s = document.createElement('span');
+                s.innerText = '+';
+                s.className = 'tgl';
+                s.addEventListener('click', fWrap(toggle, xs[i]));
+                xs[i].parentElement.insertBefore(s, xs[i]);
+            }
+        });
+    </script>
 </div>

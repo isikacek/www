@@ -49,6 +49,19 @@
         #msg-sent {
             margin-left: 20px;
         }
+        @media (max-width: 450px) {
+            #msg .field {
+                width: 75%
+            }
+            #msg fieldset {
+                padding-left: 0rem;
+            }
+            #info > div > span:first-child {
+                display: block;
+                margin-top: 1rem;
+                text-align: left;
+            }
+        }
     </style>
 {% endblock %}
 {% block content %}
@@ -56,27 +69,19 @@
         <div id="info">
             <h1>{{ _('contact_title') }}</h1>
             <div>
-                <span>email</span>
-                <span>isikacek@gmail.com</span>
+                <span>Email</span>
+                <span><a href="mailto:isikacek@gmail.com">isikacek@gmail.com</a></span>
             </div>
             <div>
-                <span>linkedin</span>
-                <span>linkedin</span>
+                <span>LinkedIn</span>
+                <span>coming soon...</span>
             </div>
             <div>
-                <span>tel</span>
-                <span>tel?</span>
+                <span>GitHub</span>
+                <span><a href="https://github.com/isikacek/">isikacek</a></span>
             </div>
             <div>
-                <span>github</span>
-                <span>github</span>
-            </div>
-            <div>
-                <span>google+</span>
-                <span>google+</span>
-            </div>
-            <div>
-                <span>skype</span>
+                <span>Skype</span>
                 <span>igor.sikacek</span>
             </div>
         </div>
@@ -84,10 +89,11 @@
             <fieldset>
                 <form method="post" action="/contact">
                     <legend>{{ _('contact_send_message') }}</legend>
-                    <input class="field" type="text" placeholder="{{ _('contact_name') }}" id="name" name="name" />
-                    <input class="field" type="email" placeholder="{{ _('contact_email') }}" id="email" name="email" />
-                    <input class="field" type="text" placeholder="{{ _('contact_subject') }}" id="title" name="title" />
-                    <textarea placeholder="{{ _('contact_message') }}" class="field" id="message" name="message"></textarea>
+                    <label></label>
+                    <input class="field" type="text" placeholder="{{ _('contact_name') }}" id="name" name="name" aria-label="Name" />
+                    <input class="field" type="email" placeholder="{{ _('contact_email') }}" id="email" name="email" aria-label="Email" />
+                    <input class="field" type="text" placeholder="{{ _('contact_subject') }}" id="title" name="title" aria-label="Title" />
+                    <textarea placeholder="{{ _('contact_message') }}" class="field" id="message" name="message" aria-label="Message"></textarea>
                     <input type="submit" id="sendNoJs" class="send" value="Send" />
                 </form>
                 <div>
@@ -110,6 +116,7 @@
             }
             return encodeURIComponent(x.value);
         }
+        
         var sendMsg = function() {
             var xhr = new XMLHttpRequest()
                 msg = document.getElementById('msg-sent');

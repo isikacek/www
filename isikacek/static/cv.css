@@ -3,88 +3,179 @@ ul {
     text-align: center;
     padding: 0;
 }
-
 #cv-main > p {
     margin-top: 4rem;
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
 }
-
 .main-columns {
     column-count: 3;
     margin-top: 2rem;
 }
-
 .main-columns > * {
     margin: 0px;
 }
-
 .company {
     max-width: 50rem;
     margin: auto;
     margin-top: 4rem;
 }
-
 .company-name {
     font-weight: bold;
     font-size: 1.5rem;
 }
-
 .company-title {
     font-weight: bold;
 }
-
 .company-date {
     float: right;
 }
-
 .project {
     margin-top: 4rem;
 }
-
 .project-name {
     font-weight: bold;
     font-size: 1.25rem;
 }
-
 .project-date {
     font-size: 1rem;
+    margin-right: 1rem;
 }
-
 .project-customer {
     font-weight: bold;
     float: right;
     font-size: 1.25rem;
 }
-
 .project-description {
     margin-top: 1rem;
 }
-
 .project-details {
     display: flex;
     margin: auto;
     max-width: 45rem;
 }
-
 .project-details > * {
     display: inline-block;
     width: 50%;
 }
-
 .project-details > *:nth-child(2) {
     float: right;
 }
-
 .simple-line {
     text-align: center;
 }
-
 #cv-table {
     margin: auto;
 }
-
 #cv-table td {
     padding: 0rem 0.5rem;
+}
+@media (min-width: 700px) {
+    .tgl {
+        display: none;
+    }
+}
+@media (max-width: 699px) {
+    .project-details {
+        display: block;
+    }
+    .project-details {
+        display: none;
+    }
+    .project-details-shown > ul {
+        width: initial;
+        text-align: initial;
+        padding: initial;
+        margin: 0 0 0 1rem;
+        float: none !important;
+    }
+    .project-title > * {
+        display: inline-block;
+        float: none;
+    }
+    .project {
+        margin-top: 2rem;
+    }
+    .main-columns {
+        overflow: hidden;
+        column-count: unset;
+        height: 6rem;
+        margin: 0px;
+    }
+    #cv-main * {
+        background-color: rgb(0,0,0,0);
+    }
+    .anim-slide {
+        animation-iteration-count: infinite;
+        display: block;
+    }
+    /*
+        1: 24 * 5s = 120s | 24 * 6rem = 144rem
+        2:  6 * 5s =  30s |  6 * 6rem =  36rem
+        3: 21 * 5s = 105s | 21 * 6rem = 126rem
+        --------------------------------------
+        a: 51 * 5s = 255s | 51 * 6rem = 306rem
+    */
+    .main-columns:nth-of-type(1) > .anim-slide {
+        animation-duration: 255s;
+        animation-timing-function: steps(51, end);
+        animation-name: slide-1;
+    }
+    @keyframes slide-1 {
+        from { transform: translateY(0rem); }
+        to { transform: translateY(-306rem); }
+    }
+    .main-columns:nth-of-type(2) {
+        margin-top: -6rem;
+    }
+    .main-columns:nth-of-type(2) > .anim-slide {
+        animation-duration: 255s;
+        animation-timing-function: steps(51, end);
+        animation-name: slide-2;
+    }
+    @keyframes slide-2 {
+        from { transform: translateY(144rem); }
+        to { transform: translateY(-162rem); }
+    }
+    .main-columns:nth-of-type(3) {
+        margin-top: -6rem;
+    }
+    .main-columns:nth-of-type(3) > .anim-slide {
+        animation-duration: 255s;
+        animation-timing-function: steps(51, end);
+        animation-name: slide-3;
+    }
+    @keyframes slide-3 {
+        from { transform: translateY(180rem); }
+        to { transform: translateY(-126rem); }
+    }
+    .anim-slide > * {
+        animation-name: fade;
+        animation-duration: 5s;
+        font-size: 2rem;
+        line-height: 2rem;
+        height: 4rem;
+        padding: 1rem 0rem 1rem 0rem;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin: 0px;
+        display: block;
+    }
+    @keyframes fade {
+      0%, 15% { transform: translateX(-20rem); opacity: 0; }
+      50%  { transform: translateX(0rem); opacity: 1 }
+      85%, 100% { transform: translateX(20rem); opacity: 0 }
+    }
+    #cv-main > p:nth-of-type(2) {
+        display: none;
+    }
+}
+.project-details-shown {
+    display: block;
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
 }

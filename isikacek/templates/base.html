@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{lang}}">
+<html lang="{{lang}}" dir="ltr">
     <head>
         <title>Igor Sikaček</title>
         <meta charset="utf-8" />
@@ -7,6 +7,15 @@
         <meta name="keywords" content="Igor Sikaček isikacek zageb programming programer razvoj development">
         <meta name="author" content="Igor Sikaček">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="/logo/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/logo/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/logo/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/logo/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/logo/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="/logo/mstile-144x144.png">
+        <meta name="theme-color" content="#ffffff">
         <link rel="stylesheet" type="text/css" href="/static/main.css" />
         <style type="text/css">
             #top-links a[href$="{{request.endpoint}}"] {
@@ -19,27 +28,27 @@
         {% block head %}{% endblock %}
     </head>
     <body>
-        <div id="top-bar">
-            <a id="home" href="{{ link_suffix }}">
+        <div id="top-bar" role="navigation">
+            <a id="home" href="/{{ link_suffix }}">
                 <span id="top-title">Igor Sikaček</span>
             </a>
             <span id="touch-area">
               <span id="m-options"></span>
                 <span id="top-links"><!--
-                    --><a href="/about{{ link_suffix }}">{{ _('About') }}</a><!--
-                    --><a href="/projects{{ link_suffix }}">{{ _('Projects') }}</a><!--
-                    --><a href="/cv{{ link_suffix }}">{{ _('CV') }}</a><!--
-                    --><a href="/contact{{ link_suffix }}">{{ _('Contact') }}</a>
+                    --><a href="/about/{{ link_suffix }}">{{ _('About') }}</a><!--
+                    --><a href="/projects/{{ link_suffix }}">{{ _('Projects') }}</a><!--
+                    --><a href="/cv/{{ link_suffix }}">{{ _('CV') }}</a><!--
+                    --><a href="/contact/{{ link_suffix }}">{{ _('Contact') }}</a>
                 </span>
             </span>
             <span id="legal-lang-top">
                 {% include "_legal_lang.html" %}
             </span>
         </div>
-        <div id="content">
+        <div id="content" role="main">
             {% block content %}{% endblock %}
         </div>
-        <div id="legal-lang-bottom">
+        <div id="legal-lang-bottom" role="navigation">
             {% include "_legal_lang.html" %}
         <div>
     </body>

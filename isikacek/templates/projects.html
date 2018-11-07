@@ -1,53 +1,35 @@
 {% extends "base.html" %}
 {% block head %}
-<style>
-  tr {
-      vertical-align: top;
-  }
-  td:first-child {
-      padding-right: 3rem;
-      padding-bottom: 3rem
-  }
-  .img {
-      width: 6rem;
-      height: 6rem;
-      background-repeat: no-repeat;
-      background-position: center;
-      vertical-align: unset;
-  }
-  .title {
-      font-weight: bold;
-      font-size: 2rem;
-  }
-</style>
+    <style>
+        .item {
+            margin-top: 2rem;
+        }
+        .title {
+            line-height: 2rem;
+            font-size: 2rem;
+            text-align: left;
+            font-weight: normal;
+            margin : 0rem 0rem 0.75rem 0rem;
+        }
+    </style>
 {% endblock %}
 {% block content %}
-<table>
-  <tr>
-    <td>
-      <div class="img" style="background-image: url(/static/awk-it-logo.png);"></div>
-    </td>
-    <td>
-      <div class="title">AWK-It</div>
-      <div class="desc">{{ _('projects_awk-it_desc') }}</div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <div class="img" style="background-image: url(/static/oms-logo.png);"></div>
-    </td>
-    <td>
-      <div class="title">Outlook Message Summary</div>
-      <div class="desc">{{ _('projects_oms_desc') }}</div>
-    </td>
-  <tr>
-    <td>
-      <div class="img" style="background-image: url(/static/envar-logo.png);"></div>
-    </td>
-    <td>
-      <div class="title">Envar</div>
-      <div class="desc">{{ _('projects_envar_desc') }}</div>
-    </td>
-  </tr>
-</table>
+    <div class="item">
+        <div class="title">
+            <a href="/projects/awk-it/{{ link_suffix }}">AWK-It</a>
+        </div>
+        <div class="desc">{{ _('projects_awk-it_desc') }}</div>
+    </div>
+    <div class="item">
+        <div class="title">
+            <a href="/projects/oms/{{ link_suffix }}">Outlook Message Summary</a>
+        </div>
+        <div class="desc">{{ _('projects_oms_desc') }}</div>
+    </div>
+    <div class="item">
+        <div class="title">
+            <a href="/projects/envar/{{ link_suffix }}">Envar</a>
+        </div>
+        <div class="desc">{{ _('projects_envar_desc') }}</div>
+    </div>
 {% endblock %}

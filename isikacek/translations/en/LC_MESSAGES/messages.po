@@ -79,7 +79,7 @@ msgstr "Request failed. Returned status of"
 #: templates/terms.html
 
 msgid "terms_website"
-msgstr "*WEBSITE* is a website ("Site") operated, updated and maintained by Igor Sikaček."
+msgstr "isikacek.com is a website ("Site") operated, updated and maintained by Igor Sikaček."
 
 msgid "terms_website_1"
 msgstr "By accessing this site, you are agreeing to these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using, accessing, or linking to this site."
@@ -124,13 +124,13 @@ msgid "terms_rights_2"
 msgstr "Where required, third party content is accredited in the 'images' section of the site."
 
 msgid "terms_rights_3"
-msgstr "The site source code is licensed under the <a href="/mit?lang=en">MIT licence</a>."
+msgstr "The site source code is licensed under the <a href=\"/mit?lang=en\">MIT licence</a>."
 
 msgid "terms_user"
 msgstr "User information"
 
 msgid "terms_user_1"
-msgstr "Information about site visitors is processed in accordance with our <a href="privacy">privacy policy</a>. By using the site, you consent to terms outlined therein."
+msgstr "Information about site visitors is processed in accordance with our <a href=\"/privacy\">privacy policy</a>. By using the site, you consent to terms outlined therein."
 
 msgid "terms_misuse"
 msgstr "Site misuse"
@@ -148,13 +148,13 @@ msgid "terms_contact_1"
 msgstr "If you have any questions about terms of service, the practices of this site, or your dealings with this site, please contact us."
 
 msgid "terms_timestamp"
-msgstr "This document was last updated on February 19, 2018"
+msgstr "This document was last updated on November 1, 2018."
 
 
 #: templates/privacy.html
 
 msgid "privacy_policy"
-msgstr "This Privacy Policy governs the manner in which Igor Sikaček collects, uses, maintains and discloses information collected from users (each, a "User") of the *WEBSITE* website ("Site")."
+msgstr "This Privacy Policy governs the manner in which Igor Sikaček collects, uses, maintains and discloses information collected from users (each, a "User") of the isikacek.com website ("Site")."
 
 msgid "privacy_personal"
 msgstr "Personal identification information"
@@ -208,7 +208,7 @@ msgid "privacy_third"
 msgstr "Third party websites"
 
 msgid "privacy_third_1"
-msgstr "Users may find advertising or other content on our Site that link to the sites and services of our partners, suppliers, advertisers, sponsors, licensors and other third parties. We do not control the content or links that appear on these sites and are not responsible for the practices employed by websites linked to or from our Site. In addition, these sites or services, including their content and links, may be constantly changing. These sites and services may have their own privacy policies and customer service policies. Browsing and interaction on any other website, including websites which have a link to our Site, is subject to that website's own <a href="terms">terms and policies</a>."
+msgstr "Users may find advertising or other content on our Site that link to the sites and services of our partners, suppliers, advertisers, sponsors, licensors and other third parties. We do not control the content or links that appear on these sites and are not responsible for the practices employed by websites linked to or from our Site. In addition, these sites or services, including their content and links, may be constantly changing. These sites and services may have their own privacy policies and customer service policies. Browsing and interaction on any other website, including websites which have a link to our Site, is subject to that website's own <a href=\"/terms\">terms and policies</a>."
 
 msgid "privacy_changes"
 msgstr "Changes to this privacy policy"
@@ -229,7 +229,7 @@ msgid "privacy_contact_1"
 msgstr "If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us."
 
 msgid "privacy_timestamp"
-msgstr "This document was last updated on February 19, 2018"
+msgstr "This document was last updated on November 1, 2018."
 
 
 #: templates/attributions.html
@@ -258,6 +258,8 @@ msgstr "Design Credits"
 msgid "attributions_4"
 msgstr "Vector Graphics by"
 
+msgid "attributions_5"
+msgstr "Vector illustration credit: "
 
 #: templates/mit.html
 
@@ -272,9 +274,9 @@ msgstr "Hi there!"
 msgid "about_me"
 msgstr "I'm Igor, Zagreb based developer with over 10 years of professional experience in the trenches, and a continuing excitement for new challenges in the field."
 msgid "about_products"
-msgstr "I've worked on products that serve hundreds of end-users in critical business stages such as: solvency reporting, interbanking account reporting, POS e-signature capture, telephone call routing with CRM, etc.."
+msgstr "I've worked on products that serve hundreds of end-users in critical business stages such as: solvency reporting, interbanking account reporting, POS e-signature capture, IVR call routing with CRM, etc..."
 msgid "about_project_needs"
-msgstr "To manage the technical needs of (sometimes) multiple ongoing projects, I've leveraged quick technology adoption, organization and writing skills, and prompt and frequent communication with customers."
+msgstr "To manage the technical needs of (sometimes) multiple ongoing projects, I've leveraged quick technology adoption, organization and writing skills, and also prompt and frequent communication with customers."
 msgid "about_users"
 msgstr "Usually this included communicating with users the needed request clarifications, changes in specifications, bug analysis, and new feature recommendations. On bigger projects this also included iterative development, DTAP workflow, bugfix/feature time estimation, demo examples and presentation material preparation."
 msgid "about_team"
@@ -306,7 +308,7 @@ msgid "500_title"
 msgstr "500 - Internal server error!"
 
 msgid "500_description"
-msgstr "... I'll fix it!"
+msgstr "...I'll fix it!"
 
 
 #: templates/_cv_head.html
@@ -339,7 +341,7 @@ msgid "awk-it-title"
 msgstr "AWK It!"
 
 msgid "awk-it-intro"
-msgstr "AWK it! is an <a href=""https://www.gnu.org/software/emacs/">Emacs</a> package that allows you to see AWK output as you are typing the script; it sends selected region to awk and uses yasnippet as interactive UI. You can get the leatest version <a href="https://github.com/isikacek/awk-it">here</a>, or visit the <a href="https://www.emacswiki.org/emacs/AWK_It">wiki</a>."
+msgstr "AWK it! is an <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a> package that allows you to see AWK output as you are typing the script; it sends selected region to awk and uses yasnippet as interactive UI. You can get the leatest version <a href=\"https://github.com/isikacek/awk-it\">here</a>, or visit the <a href=\"https://www.emacswiki.org/emacs/AWK_It\">wiki</a>."
 
 msgid "awk-it-show-demo"
 msgstr "Show demo"
@@ -552,6 +554,122 @@ msgid "awk-it-custom-13"
 msgstr "awk-it-previous-mode-keybinding    - keybinding for previous mode"
 
 
+#: templates/projects/awk-it.html
 
+msgid "oms-title"
+msgstr "Outlook Message Summary"
+
+msgid "oms-download"
+msgstr "Setup download: <a href=\"/Outlook Message Summary 1.0.zip\">Outlook Message Summary 1.0.zip</a>"
+
+msgid "oms-intro-1"
+msgstr "I wrote this tiny Outlook 2013 utility because I kept getting emails whose content or metadata needed to be copied into another email/system and Outlook UI was painful about it."
+
+msgid "oms-intro-2"
+msgstr "The add-in places 'Summary' in mail item context menu that runs the template (for e.g. 'Title: {Subject}') and passes it to one or more channels (clipboard, file, ...etc.). To use it just right click on email item in Outlook and select 'Summary'."
+
+msgid "oms-intro-3"
+msgstr "All configuration is done by accessing 'File' -> 'Options' -> 'Add-Ins', selecting 'Outlook Message Summary', and clicking 'Add-in Options' button."
+
+msgid "oms-template-title"
+msgstr "Template"
+
+msgid "oms-template-1"
+msgstr "Basic usage is to use curly braces to insert email properties into the template."
+
+msgid "oms-template-2"
+msgstr "For example mail with subject 'Hi John!' and template:"
+
+msgid "oms-template-code-1"
+msgstr "Subject: {subject}"
+
+msgid "oms-template-3"
+msgstr "Will give the summary:"
+
+msgid "oms-template-code-2"
+msgstr "Subject: Hi John!"
+
+msgid "oms-template-4"
+msgstr "You can also use advanced formatting like date/time formatting, spacing, alignment ...etc. The template is formatted using <a href=\"https://docs.microsoft.com/en-us/dotnet/api/system.string.format\">.NET String.Format</a> (with email properties instead of property indices)."
+
+msgid "oms-template-5"
+msgstr "Some examples:"
+
+msgid "oms-template-code-3"
+msgstr ""
+"{receivedtime} - {sendername} - {subject}\n"
+"TODO: answer mail from {sendername} ({receivedtime:dd-mm-yyyy})"
+
+msgid "oms-channels-title"
+msgstr "Channels"
+
+msgid "oms-channels-1"
+msgstr "After the template has been processed, it is sent to one or more 'Channels'. These are:"
+
+msgid "oms-channels-1-1"
+msgstr "Clipboard"
+
+msgid "oms-channels-1-2"
+msgstr "The result is sent to the clipboard."
+
+msgid "oms-channels-2-1"
+msgstr "Message dialog"
+
+msgid "oms-channels-2-2"
+msgstr "Simple dialog box with the result is shown."
+
+msgid "oms-channels-3-1"
+msgstr "File dialog"
+
+msgid "oms-channels-3-2"
+msgstr "You are prompted to select a file to save the result as text."
+
+msgid "oms-channels-4-1"
+msgstr "Append to"
+
+msgid "oms-channels-4-2"
+msgstr "The result is silently appended to the configured file as text."
+
+msgid "oms-channels-5-1"
+msgstr "HTTP call"
+
+msgid "oms-channels-5-2"
+msgstr "The result is silently sent to the configured service using HTTP. You can set:"
+
+msgid "oms-channels-5-3"
+msgstr "HTTP verb to use"
+
+msgid "oms-channels-5-4"
+msgstr "Whether or not to send the result of the template as HTTP body"
+
+msgid "oms-channels-5-5"
+msgstr "The target URL - which is a separate template, and can use curly braces notation and all the values"
+
+msgid "oms-channels-5-6"
+msgstr "HTTP headers - the headers are separated by newlines, with the 'key:value' format."
+
+msgid "oms-channels-6-1"
+msgstr "DLL call"
+
+msgid "oms-channels-6-2"
+msgstr "You can also send the result to functions/methods in DLLs on your system provided they satisfy the needed interface. There are two cases:"
+
+msgid "oms-channels-6-3"
+msgstr "Managed DLLs - must be in format of namespace.class.method(string)"
+
+msgid "oms-channels-6-4"
+msgstr "Unmanaged DLLs - must be in format of:"
+
+msgid "oms-channels-6-5"
+msgstr "function(const char *body)"
+
+msgid "oms-channels-6-6"
+msgstr "function(BSTR body)"
+
+msgid "oms-properties-title"
+msgstr "Properties"
+
+msgid "oms-properties-1"
+msgstr "All the available values are <a href=\"https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook._mailitem?view=outlook-pia\">_MailItem Interface</a> properties:"
 
 

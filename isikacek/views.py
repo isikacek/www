@@ -16,14 +16,8 @@ except ImportError:
 
 from isikacek import app, babel#, log
 
+MULTILANGUAGE_LANGUAGES = ['hr', 'en']
 MULTILANGUAGE_TEMPLATES = ['cv']
-
-#app.config.from_pyfile('flask.cfg')
-#babel = Babel(app)
-
-#logging.config.fileConfig('log.cfg')
-#log = logging.getLogger(__name__)
-
 
 @babel.localeselector
 def get_locale():
@@ -31,13 +25,17 @@ def get_locale():
     lang = request.args.get('lang')
     if lang is not None:
         return lang
-    return request.accept_languages.best_match(['hr', 'en'])
+    for x in request.accept_languages.values():
+        lang = x.replace('_', '-').split('-')[0]
+        if lang in MULTILANGUAGE_LANGUAGES:
+            return lang
+    return MULTILANGUAGE_LANGUAGES[0]
 
 def link_suffix():
     lang = request.args.get('lang')
     if lang is None:
         return ''
-    return '/?lang=' + get_locale()
+    return '?lang=' + get_locale()
 
 def my_router(path, missing, lang):
     m = re.search('^/?(.*[^/])/?$', path)
@@ -53,20 +51,23 @@ def my_router(path, missing, lang):
     if folder is None:
         folder = ''
     name = m.group(2)
-
+    
+    if lang is None:
+        lang = u'en'
+    
     if name in MULTILANGUAGE_TEMPLATES:
         return folder + '_' + name + '_' + lang
     return clean_path
 
 
-@app.route('/', defaults={'path': 'cover'}, methods=['GET'])
-@app.route('/<path:path>', methods=['GET'])
+@app.route('/', defaults = {'path': 'cover'}, methods = ['GET'])
+@app.route('/<path:path>', methods = ['GET'])
 def my_general_route(path):
     """Path redirect mechanism."""
     return render_template(
         my_router(path, '_404', get_locale()) + '.html',
-        lang=get_locale(),
-        link_suffix=link_suffix())
+        lang = get_locale(),
+        link_suffix = link_suffix())
 
 
 @app.route('/favicon.ico')
@@ -75,10 +76,16 @@ def favicon():
     return send_from_directory(
         os.path.join(app.root_path, 'static'),
         'icon.png',
-        mimetype='image/png')
+        mimetype = 'image/png')
 
+@app.route('/robots.txt')
+@app.route('/sitemap.xml')
+@app.route('/site.webmanifest')
+def static_from_root():
+    """Custom static resources."""
+    return send_from_directory(app.static_folder, request.path[1:])
 
-@app.route('/contact', methods=['POST'])
+@app.route('/contact', methods = ['POST'])
 def send_message():
     """Send mail message from POST data.
 
@@ -101,8 +108,8 @@ def send_message():
 def bad_turn(path):
     """Redirect to 404 page."""
     return render_template('_404.html',
-        lang=get_locale(),
-        link_suffix=link_suffix())
+        lang = get_locale(),
+        link_suffix = link_suffix())
 
 
 @app.errorhandler(Exception)
@@ -111,5 +118,5 @@ def server_error(error):
     """Log error and redirect to 500 page."""
     #log.exception(error)
     return render_template('_500.html',
-        lang=get_locale(),
-        link_suffix=link_suffix())
+        lang = get_locale(),
+        link_suffix = link_suffix())

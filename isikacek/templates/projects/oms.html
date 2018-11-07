@@ -1,0 +1,264 @@
+{% extends "base.html" %}
+{% block head %}
+    <style type="text/css">
+        .subtitle {
+            font-weight: bold;
+            margin-top: 3rem;
+            font-size: 1.5rem;
+        }
+        li p {
+            margin: 0px;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <div>
+        <div class="project-logo" style="background-image: url(/static/oms-logo.png);"></div>
+        <div class="title">{{ _('oms-title') }}</div>
+        <p>{{ _('oms-download') }}</p>
+        <p>{{ _('oms-intro-1') }}</p>
+        <p>{{ _('oms-intro-2') }}</p>
+        <p>{{ _('oms-intro-3') }}</p>
+        <div class="subtitle">{{ _('oms-template-title') }}</div>
+        <p>{{ _('oms-template-1') }}</p>
+        <p>{{ _('oms-template-2') }}</p>
+        <pre>{{ _('oms-template-code-1') }}</pre>
+        <p>{{ _('oms-template-3') }}</p>
+        <pre>{{ _('oms-template-code-2') }}</pre>
+        <p>{{ _('oms-template-4') }}</p>
+        <p>{{ _('oms-template-5') }}</p>
+        <pre>{{ _('oms-template-code-3') }}</pre>
+        <div class="subtitle">{{ _('oms-channels-title') }}</div>
+        <p>{{ _('oms-channels-1') }}</p>
+        <ul>
+            <li>
+                <div>{{ _('oms-channels-1-1') }}</div>
+                <div>{{ _('oms-channels-1-2') }}</div>
+            </li>
+            <li>
+                <div>{{ _('oms-channels-2-1') }}</div>
+                <div>{{ _('oms-channels-2-2') }}<li>
+                <div>{{ _('oms-channels-3-1') }}</div>
+                <div>{{ _('oms-channels-3-2') }}</li>
+            <li>
+                <div>{{ _('oms-channels-4-1') }}</div>
+                <div>{{ _('oms-channels-4-2') }}</li>
+            <li>
+                <div>{{ _('oms-channels-5-1') }}</div>
+                <div>
+                    <p>{{ _('oms-channels-5-2') }}</p>
+                    <ul>
+                        <li>{{ _('oms-channels-5-3') }}</li>
+                        <li>{{ _('oms-channels-5-4') }}</li>
+                        <li>{{ _('oms-channels-5-5') }}</li>
+                        <li>{{ _('oms-channels-5-6') }}</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div>{{ _('oms-channels-6-1') }}</div>
+                <div>
+                    <p>{{ _('oms-channels-6-2') }}</p>
+                    <ul>
+                        <li>{{ _('oms-channels-6-3') }}</li>
+                        <li>{{ _('oms-channels-6-4') }}<ul>
+                                <li>{{ _('oms-channels-6-5') }}</li>
+                                <li>{{ _('oms-channels-6-6') }}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="subtitle">{{ _('oms-properties-title') }}</div>
+        <p>{{ _('oms-properties-1') }}</p>
+        <ul>
+            <li>AlternateRecipientAllowed</li>
+            <li>AutoForwarded</li>
+            <li>AutoResolvedWinner</li>
+            <li>BCC</li>
+            <li>BillingInformation</li>
+            <li>Body</li>
+            <li>BodyFormat</li>
+            <li>Categories</li>
+            <li>CC</li>
+            <li>Companies</li>
+            <li>ConversationID</li>
+            <li>ConversationIndex</li>
+            <li>ConversationTopic</li>
+            <li>CreationTime</li>
+            <li>DeferredDeliveryTime</li>
+            <li>DeleteAfterSubmit</li>
+            <li>DownloadState</li>
+            <li>EnableSharedAttachments</li>
+            <li>EntryID</li>
+            <li>ExpiryTime</li>
+            <li>FlagDueBy</li>
+            <li>FlagIcon</li>
+            <li>FlagRequest</li>
+            <li>FlagStatus</li>
+            <li>HasCoverSheet</li>
+            <li>HTMLBody</li>
+            <li>Importance</li>
+            <li>InternetCodepage</li>
+            <li>IsConflict</li>
+            <li>IsIPFax</li>
+            <li>IsMarkedAsTask</li>
+            <li>LastModificationTime</li>
+            <li>MarkForDownload</li>
+            <li>MessageClass</li>
+            <li>Mileage</li>
+            <li>NoAging</li>
+            <li>OriginatorDeliveryReportRequested</li>
+            <li>OutlookInternalVersion</li>
+            <li>OutlookVersion</li>
+            <li>Permission</li>
+            <li>PermissionService</li>
+            <li>ReadReceiptRequested</li>
+            <li>ReceivedByEntryID</li>
+            <li>ReceivedByName</li>
+            <li>ReceivedOnBehalfOfEntryID</li>
+            <li>ReceivedOnBehalfOfName</li>
+            <li>ReceivedTime</li>
+            <li>RecipientReassignmentProhibited</li>
+            <li>ReminderOverrideDefault</li>
+            <li>ReminderPlaySound</li>
+            <li>ReminderSet</li>
+            <li>ReminderSoundFile</li>
+            <li>ReminderTime</li>
+            <li>RemoteStatus</li>
+            <li>ReplyRecipientNames</li>
+            <li>RetentionExpirationDate</li>
+            <li>Saved</li>
+            <li>SenderEmailAddress</li>
+            <li>SenderEmailType</li>
+            <li>SenderName</li>
+            <li>Sensitivity</li>
+            <li>Sent</li>
+            <li>SentOn</li>
+            <li>SentOnBehalfOfName</li>
+            <li>Size</li>
+            <li>Subject</li>
+            <li>Submitted</li>
+            <li>TaskCompletedDate</li>
+            <li>TaskDueDate</li>
+            <li>TaskStartDate</li>
+            <li>TaskSubject</li>
+            <li>To</li>
+            <li>ToDoTaskOrdinal</li>
+            <li>VotingOptions</li>
+            <li>VotingResponse</li>
+            <li>AlternateRecipientAllowed</li>
+            <li>AutoForwarded</li>
+            <li>AutoResolvedWinner</li>
+            <li>BCC</li>
+            <li>BillingInformation</li>
+            <li>Body</li>
+            <li>BodyFormat</li>
+            <li>Categories</li>
+            <li>CC</li>
+            <li>Companies</li>
+            <li>ConversationID</li>
+            <li>ConversationIndex</li>
+            <li>ConversationTopic</li>
+            <li>CreationTime</li>
+            <li>DeferredDeliveryTime</li>
+            <li>DeleteAfterSubmit</li>
+            <li>DownloadState</li>
+            <li>EnableSharedAttachments</li>
+            <li>EntryID</li>
+            <li>ExpiryTime</li>
+            <li>FlagDueBy</li>
+            <li>FlagIcon</li>
+            <li>FlagRequest</li>
+            <li>FlagStatus</li>
+            <li>HasCoverSheet</li>
+            <li>HTMLBody</li>
+            <li>Importance</li>
+            <li>InternetCodepage</li>
+            <li>IsConflict</li>
+            <li>IsIPFax</li>
+            <li>IsMarkedAsTask</li>
+            <li>LastModificationTime</li>
+            <li>MarkForDownload</li>
+            <li>MessageClass</li>
+            <li>Mileage</li>
+            <li>NoAging</li>
+            <li>OriginatorDeliveryReportRequested</li>
+            <li>OutlookInternalVersion</li>
+            <li>OutlookVersion</li>
+            <li>Permission</li>
+            <li>PermissionService</li>
+            <li>ReadReceiptRequested</li>
+            <li>ReceivedByEntryID</li>
+            <li>ReceivedByName</li>
+            <li>ReceivedOnBehalfOfEntryID</li>
+            <li>ReceivedOnBehalfOfName</li>
+            <li>ReceivedTime</li>
+            <li>RecipientReassignmentProhibited</li>
+            <li>ReminderOverrideDefault</li>
+            <li>ReminderPlaySound</li>
+            <li>ReminderSet</li>
+            <li>ReminderSoundFile</li>
+            <li>ReminderTime</li>
+            <li>RemoteStatus</li>
+            <li>ReplyRecipientNames</li>
+            <li>RetentionExpirationDate</li>
+            <li>Saved</li>
+            <li>SenderEmailAddress</li>
+            <li>SenderEmailType</li>
+            <li>SenderName</li>
+            <li>Sensitivity</li>
+            <li>Sent</li>
+            <li>SentOn</li>
+            <li>SentOnBehalfOfName</li>
+            <li>Size</li>
+            <li>Subject</li>
+            <li>Submitted</li>
+            <li>TaskCompletedDate</li>
+            <li>TaskDueDate</li>
+            <li>TaskStartDate</li>
+            <li>TaskSubject</li>
+            <li>To</li>
+            <li>ToDoTaskOrdinal</li>
+            <li>VotingOptions</li>
+            <li>VotingResponse</li>
+            <li>Sender.Address</li>
+            <li>Sender.ID</li>
+            <li>Sender.Name</li>
+            <li>Sender.Type</li>
+            <li>SendUsingAccount.DisplayName</li>
+            <li>SendUsingAccount.ExchangeMailboxServerName</li>
+            <li>SendUsingAccount.ExchangeMailboxServerVersion</li>
+            <li>SendUsingAccount.SmtpAddress</li>
+            <li>SendUsingAccount.UserName</li>
+            <li>SendUsingAccount.CurrentUser.Address</li>
+            <li>SendUsingAccount.CurrentUser.EntryID</li>
+            <li>SendUsingAccount.CurrentUser.Index</li>
+            <li>SendUsingAccount.CurrentUser.MeetingResponseStatus</li>
+            <li>SendUsingAccount.CurrentUser.Name</li>
+            <li>SendUsingAccount.CurrentUser.Resolved</li>
+            <li>SendUsingAccount.CurrentUser.Sendable</li>
+            <li>SendUsingAccount.CurrentUser.TrackingStatus</li>
+            <li>SendUsingAccount.CurrentUser.TrackingStatusTime</li>
+            <li>Attachments.DisplayName</li>
+            <li>Attachments.FileName</li>
+            <li>Attachments.Index</li>
+            <li>Attachments.PathName</li>
+            <li>Attachments.Position</li>
+            <li>Attachments.Size</li>
+            <li>Recipients.Address</li>
+            <li>Recipients.EntryID</li>
+            <li>Recipients.Index</li>
+            <li>Recipients.MeetingResponseStatus</li>
+            <li>Recipients.Name</li>
+            <li>Recipients.Resolved</li>
+            <li>Recipients.Sendable</li>
+            <li>Recipients.TrackingStatus</li>
+            <li>Recipients.TrackingStatusTime</li>
+        </ul>
+        <a href="https://github.com/isikacek/OutlookMessageSummary">
+            <img id="github" src="/static/github.png" alt="Fork me on GitHub">
+        </a>
+    </div>
+{% endblock %}
