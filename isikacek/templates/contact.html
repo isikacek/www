@@ -87,7 +87,7 @@
         </div>
         <div id="msg">
             <fieldset>
-                <form method="post" action="/contact">
+                <form method="post" action="/send">
                     <legend>{{ _('contact_send_message') }}</legend>
                     <label></label>
                     <input class="field" type="text" placeholder="{{ _('contact_name') }}" id="name" name="name" aria-label="Name" />
@@ -116,11 +116,11 @@
             }
             return encodeURIComponent(x.value);
         }
-        
+
         var sendMsg = function() {
             var xhr = new XMLHttpRequest()
                 msg = document.getElementById('msg-sent');
-            xhr.open('POST', 'contact');
+            xhr.open('POST', '/send');
             xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
             xhr.onload = function() {
                 if (xhr.status === 200) {

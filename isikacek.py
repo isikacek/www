@@ -1,3 +1,0 @@
-
-
-from isikacek import isikacek

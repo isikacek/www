@@ -1,20 +1,37 @@
 # -*- coding: utf-8 -*-
 """Simple Flask personal web page."""
 import os
+from os import path
 import re
-#import logging
-#import logging.config
+import traceback
+import logging
+import logging.config
 
 from flask import Flask, render_template, request, send_from_directory, redirect
 from flask_babel import Babel
 from jinja2.exceptions import TemplateNotFound
 
-try:
-    from gae import send_mail
-except ImportError:
-    from no_env import send_mail
+from flask import Flask
 
-from isikacek import app, babel#, log
+app = Flask(__name__, static_folder = 'static')
+application = app
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 86400
+app.config.from_pyfile('../flask.cfg')
+babel = Babel(app)
+
+logging.config.fileConfig(path.join(path.dirname(path.abspath(__file__)), '../log.cfg'))
+log = logging.getLogger(__name__)
+
+if __name__ == '__main__':
+    app.run()
+
+from smtp import SimpleSMTP
+
+try:
+    email
+except NameError:
+    email = SimpleSMTP(os.path.join(app.root_path, '../smtp.cfg'))
+
 
 MULTILANGUAGE_LANGUAGES = ['hr', 'en']
 MULTILANGUAGE_TEMPLATES = ['cv']
@@ -25,7 +42,7 @@ def get_locale():
     lang = request.args.get('lang')
     if lang is not None:
         return lang
-    for x in request.accept_languages.values():
+    for x in list(request.accept_languages.values()):
         lang = x.replace('_', '-').split('-')[0]
         if lang in MULTILANGUAGE_LANGUAGES:
             return lang
@@ -51,14 +68,13 @@ def my_router(path, missing, lang):
     if folder is None:
         folder = ''
     name = m.group(2)
-    
+
     if lang is None:
-        lang = u'en'
-    
+        lang = 'en'
+
     if name in MULTILANGUAGE_TEMPLATES:
         return folder + '_' + name + '_' + lang
     return clean_path
-
 
 @app.route('/', defaults = {'path': 'cover'}, methods = ['GET'])
 @app.route('/<path:path>', methods = ['GET'])
@@ -85,7 +101,7 @@ def static_from_root():
     """Custom static resources."""
     return send_from_directory(app.static_folder, request.path[1:])
 
-@app.route('/contact', methods = ['POST'])
+@app.route('/send', methods = ['POST'])
 def send_message():
     """Send mail message from POST data.
 
@@ -95,12 +111,12 @@ def send_message():
         email - email of the sender,
         message - the message itself."""
 
-    send_mail(
-        'isikacek-web',
+    email.send_mail(
         'isikacek@gmail.com',
-        '' + request.form['name'] + ' - ' + request.form['title'],
+        'isikacek@gmail.com',
+        'webmsg: ' + request.form['name'] + ' - ' + request.form['title'],
         request.form['message'] + '\n\n' + request.form['email'])
-    return redirect('/contact')
+    return ''
 
 
 @app.errorhandler(TemplateNotFound)
@@ -116,7 +132,8 @@ def bad_turn(path):
 @app.errorhandler(500)
 def server_error(error):
     """Log error and redirect to 500 page."""
-    #log.exception(error)
+    #print(traceback.format_exc())
+    log.exception(error)
     return render_template('_500.html',
         lang = get_locale(),
         link_suffix = link_suffix())
